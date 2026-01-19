@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Homebrew Content</name>
+		<update version="1.0.0">
+			<file name="glyphick.index" url="https://raw.githubusercontent.com/Glyphick/Homebrew/master/glyphick.index" />
+		</update>
+	</info>
+	<files>
+		<file name="implosion.xml" url="https://raw.githubusercontent.com/yourgithubaccount/Homebrew/master/Glyphick/implosion.xml" />
+		<file name="surge.xml" url="https://raw.githubusercontent.com/yourgithubaccount/Homebrew/master/Glyphick/surge.xml" />
+	</files>
+</index>
