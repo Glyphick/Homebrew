@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Surge</name>
+		<description>The Surge that flows through all.</description>
+		<author>Glyphick</author>
+		<update version="1.0.0">
+			<file name="barbarian-surge.xml" url="https://raw.githubusercontent.com/yourgithubaccount/Homebrew/master/Glyphick/barbarian-surge.xml" />
+		</update>
+	</info>
+	
+	<!-- Path of the Surge-->
+	<element name="Path of the Surge" type="Archetype" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_PATH_OF_THE_SURGE">
+		<supports>Primal Path</supports>
+		<description>
+			<p>The surge of energy becomes palpable to your deft hands, your eyes see what others cannot. what lies before you is an untouched canvas of pure energy. How will you leave your mark?</p>
+			<p class="indent">insert flavor text</p>
+			<div element="ID_GLY_GH_ARCHETYPE_FEATURE_SURGE_STREAMING_COUNTER" />
+			<div element="ID_GLY_GH_ARCHETYPE_FEATURE_SURGE_MANA_ABSORB" />
+			<div element="ID_GLY_GH_ARCHETYPE_FEATURE_SURGE_SURGING_FURY" />
+			<div element="ID_GLY_GH_ARCHETYPE_FEATURE_SURGE_IMMOVABLE_SURGE" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_SURGE_STREAMING_COUNTER" level="3" />
+			<grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_SURGE_MANA_ABSORB" level="6" />
+			<grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_SURGE_SURGING_FURY" level="10" />
+			<grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_SURGE_IMMOVABLE_SURGE" level="14" />
+		</rules> 
+	</element>
+
+	<!-- Example of how to start the next element -->
+	<element name="Streaming Counter" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_SURGE_STREAMING_COUNTER">
+		<description>
+			<p>Starting at the 3rd level, when you are enraged, you can purposely drop your resistances to take damage. When you use an action to lower your resistances, you take the damage and convert the kinetic energy into damage for your next attack. Depending on what hit die was used, you take half of the amount of hit die (rounded down to a minimum of one) and add it to your next attack.</p>
+		</description>
+		<sheet action="action">
+			<description>While raging, you can use this feature to lower you resistances to deal half the amount of hit die you take (to a minimum of 1) and add it to your next attack.</description>
+		</sheet>
+	</element>
+	<element name= "Mana Absorb" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_SURGE_MANA_ABSORB">
+		<description>
+			<p>You begin to understand the core of energy. Starting at the 6th level, you can convert the damage you take from Surging defense into different types of energy. You can now change the damage type of your blows to Ice, Fire, or Lightning damage, and can convert your damage to temporary hit points. You can also expend a rage during Streaming Counter to keep your resistances. You can use this feature up to {{proficiency}} times per long rest.</p>
+		</description>
+		<sheet usage="{{proficiency}}/Long Rest" action="bonus action">
+			<description>You can now change the damage type of the Hit die you absorb through the Streaming Counter feature, letting you convert it to Ice, Fire, or Lightning damage, or convert the damage to temporary hit points. Expending an extra use of rage will let you keep your resistances for a single use of Streaming counter.</description>
+		</sheet>
+	</element>
+	<element name="Surging Fury" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_SURGE_SURGING_FURY">
+		<description>
+			<p>You’ve discovered a hidden fundamental of energy. Starting at the 10th level, you can now take damage up to 3 turns with your resistances and convert the full damage die into your next attack. However, you cannot attack during this instance, and your body becomes drained of mana and needs to recharge after use of this feature. If you use the mana absorb feature to give temporary hit points, the die count is halved. You can use this feature up to {{constitution:modifier:min:1:max:2}} times per long rest.</p>
+		</description>
+		<sheet usage="{{constitution:modifier:min:1:max:2}}/Long Rest">
+			<description>While using the Streaming Counter Feature, you can expend 3 turns of combat to brace yourself, regaining your resistances for the period and dealing all of the hit die you took damage from back into your next attack.</description>
+		</sheet>
+	</element>
+	<element name= "Immovable Surge" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_SURGE_IMMOVABLE_SURGE">
+		<description>
+			<p>You’ve understood motion to its core. When you now use the Streaming Counter feature, you can subtract 1d10 + your proficiency bonus + your constitution modifier from the damage you took. You can use this feature up to {{constitution:modifier:min:1:max:3}} times per long rest.</p>
+		</description>
+		<sheet usage="{{constitution:modifier:min:1:max:3}}/Long Rest" action="reaction">
+			<description>When using the Streaming Counter feature, you can subtract 1d10 + {{proficiency}} + {{constitution:modifier:min:1}} from the total damage.</description>
+		</sheet>
+	</element>
+</elements>
