@@ -36,10 +36,10 @@
         	<p>Starting at the 3rd level, you can funnel kinetic energy from your wounds. While raging, you can use a bonus action to drop your resistances until the start of your next turn. Your first successful melee attack on your next turn deals extra damage equal to half the damage you took while your resistances were lowered (Max: twice your barbarian level).</p>
     	</description>
     	<sheet action="Bonus Action">
-        	<description>While Raging, drop your B/P/S resistances until your next turn. Your next melee hit deals +$(Streaming Counter:damage) damage (Half of damage taken, max $(level:barbarian:double)).</description>
+        	<description>While Raging, drop your B/P/S resistances until your next turn. Your next melee hit deals +$(streamingcounter:damage) damage.</description>
     </sheet>
     	<rules>
-        	<stat name="Streaming Counter:damage" value="level:barbarian:double" />
+        	<stat name="streamingcounter:damage" value="level:barbarian" bonus="double" />
     	</rules>
 	</element>
 	<element name="Elemental Siphoning" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_SURGE_ELEMENTAL_SIPHONING">
