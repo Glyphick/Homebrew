@@ -1,12 +1,134 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>File 1</name>
+		<name>Implosion Point</name>
 		<update version="1.0.0">
-			<file name="figher-implosion-point.xml" url="https://raw.githubusercontent.com/yourgithubaccount/Homebrew/master/Glyphick/fighter-implosion-point.xml" />
+			<file name="fighter-implosion-point.xml" url="https://raw.githubusercontent.com/yourgithubaccount/Homebrew/master/Glyphick/fighter-implosion-point.xml" />
 		</update>
 	</info>
 	
 	<!-- place your elements here -->
+	<element name="Implosion Point" type="Archetype" source="Gylphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_IMPLOSION_POINT">
+		<supports>Martial Archetype</supports>
+		<description>
+			<p>A fighter subclass</p>
+			<p class=indent"">The capabilities of the unnatural, forged to make matter pressure against its will. Walls upon walls of difficulty and strife with this fighting style will fall in on themselves one after another. Through strict calculations or through brute force, how will you tear down these walls?</p>
+			<div element="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_BONUS_PROF" />
+			<div element="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_TENSION_POINTS" />
+			<div element="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_PRESSURE_MOVEMENT" />
+			<div element="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_UNDERSTANDING_OF_PREASURE" />
+			<div element="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_UNSTABLE_IMPLOSION" />
+			<div element="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_UNRIVIALED_FORCE" />
+			<div element="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_STATIC_RECOIL" />
+			<div element="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_STAR_RAGE" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_BONUS_PROF" level="3" />
+			<grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_IMPLOSION_PULSE" level="3" />
+			<grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_TENSION_POINTS" level="3" />
+			<grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_PRESSURE_MOVEMENT" level="7" />
+			<grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_UNDERSTANDING_OF_PREASURE" level="7" />
+			<grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_UNSTABLE_IMPLOSION" level="10" />
+			<grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_UNRIVIALED_FORCE" level="15" />
+			<grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_STATIC_RECOIL" level="15" />
+			<grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_STAR_RAGE" level="18" />
+		</rules>
+	</element>
 	
+	<!-- Indepth feature section -->>
+	<element name="Bonus proficiencies" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_ARCHETYPE_IMPLOSION_BONUS_PROF">
+		<description>
+			<p>You gain proficiency in the Arcana skill, and also gain proficiencies in thrown weapons.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+    		<!-- Simple Thrown Weapons -->
+    		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
+    		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE" />
+    		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN" />
+    		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER" />
+    		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
+   			 <!-- Martial Thrown Weapons -->
+    		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT" />
+    		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_NET" />
+		</rules>
+	</element>
+	<element name="Tension Points" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_ARCHETYPE_IMPLOSION_TENSION_POINTS">
+		<description>
+			<p>Starting at the 3rd level, you gain access to the localization of implosion– Tension Points. You can expend Tension Points to cause nature to pressurize itself. Starting out, you have 2 Tension Points and gain 1 for every other level. You can roll an intelligence saving throw as a bonus action to regain one Tension point, while taking 2d4 damage on a success. On a fail, you take 2d4 damage and don’t regain a Tension point.</p>
+		</description>
+		<sheet usage="Tension Points" action="bonus action">
+			<description>you have $(Tension Points:max) Tension Points. you regain a point when you pass a DC $(dc:goodpressure) saving throw, and take 2d4 damage regardless if you pass or not.</description>
+		</sheet>
+		<rules>
+			<stat name="Tension Points:max" value="level:fighter:half:up" />
+			<stat name="dc:goodpressure" value="13" />
+		</rules>
+	</element>
+	<element name="Implosion Pulse" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_IMPLOSION_PULSE">
+    	<description>
+      	  <p>By spending one Tension point, you can conjure an implosion in a 30ft circle from where you are currently standing, taking up 5ft total. Targets 10ft around it must make a Strength saving throw. On a failed save, the target is knocked prone. On a successful save, nothing happens.</p>
+   		</description>
+   		<sheet action="Bonus Action">
+        	<description>Spend 1 Tension Point to conjure an implosion within 30ft. Targets within 10ft of the point must succeed on a DC $(dc:badpressure) Strength saving throw or be knocked prone.</description>
+		</sheet>
+		<rules>
+		<stat name="dc:badpressure" value="8" />
+		<stat name="dc:badpressure" value="intelligence:modifier" />
+		<stat name="dc:badpressure" value:"proficiency" />
+		</rules>
+	</element>
+	<element name="Pressure Movement" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_ARCHETYPE_IMPLOSION_PRESSURE_MOVEMENT">
+		<description>
+			<p>You move faster than most can see. Starting at the 3rd level, by using a Tension point, you can use the dash action as a bonus action.</p>
+		</description>
+		<sheet Action="Bonus Action">
+			<description>You can dash as a bonus action.</description>
+		</sheet>
+	</element>
+	<element name="Understanding of Pressure" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_ARCHETYPE_IMPLOSION_UNDERSTANDING_OF_PRESSURE">
+		<description>
+			<p>You understand the fundamentals of your abilities. Starting at the 7th level, when using a Tension point, you can double your bonus to your attack roll for one attack. When using a ranged-based finesse weapon, once this attack lands, enemies 10 ft of the target must make a dexterity saving throw. On a failed save, the target is hit by the dice damage of the original attack until either every enemy is hit or a target passes the save. On a successful save, the attack ends.</p>
+		</description>
+		<sheet usage="{{Intelligence:modifier}}" Action="Bonus Action">
+			<description>You can use a Tension point to double your plus for your next attack. If used with a Thrown Weapon and the attack lands, Enemies nearby nust make a DC $(dc:badpressure) Dexterity saving throw or get hit by the same ammount of damage. this continues until all enemies are hit once or one passes a save.</description>
+		</sheet>
+	</element>
+	<element name="Unstable Implosion" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_UNSTABLE_IMPLOSION">
+    	<description>
+       		<p>When you overcharge an Implosion, you deal an extra 1d8 damage for each additional Tension point spent beyond the first (max $(intelligence:modifier) additional points).</p>
+    	</description>
+    	<sheet usage="1/Long Rest" action="Special">
+        	<description>Overcharge an Implosion (Max extra points: $(intelligence:modifier)). Deal +1d8 damage per extra point. Penalty: -2 to attack per extra point (or Disadvantage if 4+ points spent). You take 2d8 bludgeoning damage.</description>
+    	</sheet>
+	</element>
+	<element name="Unrivaled Force" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_ARCHETYPE_IMPLOSION_UNRIVIALED_FORCE">
+		<description>
+			<p>Starting at the 15th level, you can expend 3 Tension points and force a target within range to make a strength saving throw. On a failed save, they are knocked prone and take 4d12 + your intelligence modifier Force damage. On a successful save, they take half damage, and their movement is halved till beginning of your next turn.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You can expend 3 Tension points to force a target within a 30ft range to make a DC $(dc:badpressure) Strength Saving throw. On a failed save, they take 4d12+$(intelligence:modifier) Force Damage and are knocked prone. on a successful save, they take half damage and aren't knocked prone.</description>
+		</sheet>
+	</element>
+	<element name="Static Recoil" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_ARCHETYPE_IMPLOSION_STATIC_RECOIL">
+		<description>
+			<p>By the 15th level, the recoil of your blows deals damage. When hit with a blow caused by Understanding of Pressure, the enemy rolls a Strength saving throw. On a failed save, they are staggered and take 2d6 + your intelligence modifier Force damage. On a successful save, they take half damage and aren’t staggered.</p>
+		</description>
+		<sheet usage="$(Static Recoil:usage)/Long Rest" Action="Special">
+			<description>Your blows deal Recoil damage to enemies. Enemies must make a DC $(dc:badpressure) Strength saving throw. Fail: They are staggered and take 2d6+$(intelligence:modifier) Force damage. Success: Half damage.</description>
+		</sheet>
+		<rules>
+			<stat name="Static Recoil:usage" value="intelligence:modifier" bound="1" />
+		</rules>
+	</element>
+	<element name="Star Collapse" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_ARCHETYPE_IMPLOSION_STAR_COLLAPSE">
+    	<description>
+        	<p>As an action, you can expend all remaining Tension points (min 5) to create a 20-foot-radius sphere of star-like pressure. Creatures in the sphere take 10d10 + your Intelligence modifier force damage. Creatures within 10 feet of the sphere must make a Strength save or be pulled in and take full damage; success results in half damage. Afterwards, your HP is halved, you gain 3 levels of exhaustion, and you lose access to Tension points until a long rest.</p>
+    	</description>
+    	<sheet action="Action" usage="1/Long Rest">
+        	<description>Expend all Tension points (min 5). 20ft sphere deals 10d10+$(intelligence:modifier) force damage. Targets within 10ft must make a DC $(dc:badpressure) Strength save or be pulled in. Afterward, your HP is halved and you gain 3 exhaustion levels.</description>
+    	</sheet>
+	</element>
 </elements>
