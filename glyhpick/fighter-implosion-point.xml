@@ -37,6 +37,22 @@
 	</element>
 	
 	<!-- Indepth feature section -->
+	<element name="Cetacean Coil" type="Weapon" source="Glyphick's Homebrew" id="ID_GLY_GH_WEAPON_CETACEAN_COIL">
+    	<description>
+        	<p>A heavy, rolled-up orca tail preserved and reinforced for combat. It is designed to be kicked, using momentum to deliver crushing blows.</p>
+        	<p class="indent"><strong>Kick-Start.</strong> You can use Strength or Dexterity for attack and damage rolls with this weapon if you aren't wearing heavy armor.</p>
+        	<p class="indent"><strong>Elastic Snap.</strong> While wielding this weapon, the range of your Implosion Pulse and Unstable Implosion features increases by 10 feet.</p>
+    	</description>
+    	<setters>
+        	<set name="category">Martial Melee Weapons</set>
+        	<set name="cost" currency="gp">50</set>
+        	<set name="weight" lb="10">10 lb.</set>
+        	<set name="slot">mainhand</set>
+        	<set name="damage" dice="1d10">1d10</set>
+        	<set name="damage type">bludgeoning</set>
+        	<set name="property">Heavy, Reach, Thrown</set>
+    	</setters>
+	</element>
 	<element name="Bonus proficiencies" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_BONUS_PROF">
 		<description>
 			<p>You gain proficiency in the Arcana skill, and also gain proficiencies in thrown weapons.</p>
