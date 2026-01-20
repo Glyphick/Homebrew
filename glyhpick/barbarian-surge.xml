@@ -36,10 +36,14 @@
         	<p>Starting at the 3rd level, you can funnel kinetic energy from your wounds. While raging, you can use a bonus action to drop your resistances until the start of your next turn. Your first successful melee attack on your next turn deals extra damage equal to half the damage you took while your resistances were lowered (Max: twice your barbarian level).</p>
     	</description>
     	<sheet action="Bonus Action">
-        	<description>While Raging, drop your B/P/S resistances until your next turn. Your next melee hit deals +$(streamingcounter:damage) damage.</description>
+        	<description>While Raging, drop your B/P/S resistances until your next turn. Your next melee hit deals +$(streamingcounter:damage)d$(dice:die-size) damage.</description>
     </sheet>
+		<setters>
+			<set name="dice:die-size">4</set>
+		</setters>
     	<rules>
-        	<stat name="streamingcounter:damage" value="level:barbarian" bonus="double" />
+        	<stat name="streamingcounter:damage" value="level:barbarian:half:up" />
+			<stat name="streamingcounter:damage" value="constitution:modifier" >
     	</rules>
 	</element>
 	<element name="Elemental Siphoning" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_SURGE_ELEMENTAL_SIPHONING">
@@ -53,6 +57,9 @@
         	<description>When using Streaming Counter, gain $(level:barbarian) Temp HP and your next strike can be Cold, Fire, or Lightning. 
         	Reaction: Regain resistances for the rest of the turn.</description>
     	</sheet>
+		<rules>
+			<stat name="dice:die-size" value="2" />
+		</rules>
 	</element>
 	<element name="Surging Fury" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_SURGE_SURGING_FURY">
     	<description>
@@ -72,7 +79,7 @@
         	<p class="indent"><strong>Unstoppable Force:</strong> While in your Surging Stance, you are immune to being Grappled, Prone, or Restrained.</p>
     	</description>
     	<sheet usage="3/Long Rest">
-        	<description>When using Streaming Counter, reduce the first instance of incoming damage by 1d10+$(con:modifier)+$(level:barbarian). This "negated" damage still boosts your next attack. You are also immune to Prone/Grappled/Restrained during Surging Stance.</description>
+        	<description>When using Streaming Counter, reduce the first instance of incoming damage by 1d10+$(constitution:modifier)+$(level:barbarian). This "negated" damage still boosts your next attack. You are also immune to Prone/Grappled/Restrained during Surging Stance.</description>
     	</sheet>
 	</element>
 </elements>
