@@ -50,7 +50,7 @@
         	<set name="slot">mainhand</set>
         	<set name="damage" dice="1d10">1d10</set>
         	<set name="damage type">bludgeoning</set>
-        	<set name="property">Heavy, Reach, Thrown</set>
+        	<set name="property">Heavy, Reach, Thrown, Returning</set>
         	<set name="range">20/60</set>
     	</setters>
 	</element>
