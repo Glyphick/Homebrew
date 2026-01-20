@@ -39,8 +39,8 @@
 	<!-- Indepth feature section -->
 	<element name="Cetacean Coil" type="Weapon" source="Glyphick's Homebrew" id="ID_GLY_GH_WEAPON_CETACEAN_COIL">
     	<description>
-        	<p>A heavy, rolled-up orca tail preserved and reinforced for combat. It is designed to be kicked, using momentum to deliver crushing blows.</p>
-        	<p class="indent"><strong>Kick-Start.</strong> You can use Strength or Dexterity for attack and damage rolls with this weapon if you aren't wearing heavy armor.</p>
+        	<p>A heavy, rolled-up orca tail preserved and reinforced for combat. It is designed to be kicked, using momentum to deliver crushing blows or to be launched at a distance.</p>
+        	<p class="indent"><strong>Kick-Start.</strong> You can use Strength or Dexterity for attack and damage rolls with this weapon if you aren't wearing heavy armor. This applies to both melee and thrown attacks.</p>
         	<p class="indent"><strong>Elastic Snap.</strong> While wielding this weapon, the range of your Implosion Pulse and Unstable Implosion features increases by 10 feet.</p>
     	</description>
     	<setters>
@@ -51,6 +51,7 @@
         	<set name="damage" dice="1d10">1d10</set>
         	<set name="damage type">bludgeoning</set>
         	<set name="property">Heavy, Reach, Thrown</set>
+        	<set name="range">20/60</set>
     	</setters>
 	</element>
 	<element name="Bonus proficiencies" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_BONUS_PROF">
