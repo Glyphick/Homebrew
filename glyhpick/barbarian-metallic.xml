@@ -31,7 +31,7 @@
 			<p>At 3rd level, while you rage, your skin gains the attributes and appearance of steel, perhaps even your hair and clothes, gaining a layer of steel. While raging, you reduce all incoming damage by 3(after resistances). This capability increases by 1 at level 6, and again at level 14. You also gain a resistance to poison damage.</p>
 		</description>
         <sheet>
-            <description>Your body and appearance turns to steel. when raging, you reduce all damage by 3 (after resistances) and are resistant to poison damage.</description>
+            <description>Your body and appearance turns to steel. when raging, you reduce all damage by $(Steel:damagereduce) (after resistances) and are resistant to poison damage.</description>
         </sheet>
         <rules>
             <stat name="Steel:damagereduce" value="3" level="3" />
@@ -47,10 +47,10 @@
             <p>At 6th level, while you rage, your bones turn into heavy tungsten:</p>
             <ul>
                 <li>Your weight doubles.</li>
-                <li>When you are moved against your will, you can reduce that movement by 10 ft.</li>
+                <li>When you are moved against your will, you can reduce that movement by 10ft.</li>
                 <li>You cannot be knocked prone against your will.</li>
-                <li>Your damage-reducing ability from steel skin increases to 4.</li>
-			</ul>
+                <li>Your damage-reducing ability increases to 4.</li>
+            </ul>
         </description>
         <sheet>
             <description>Your bones turn into heavy tungsten, and gain the following benefits: Your weight is doubled, if you are being moved, you can reduce that movement by 10 ft.</description>
@@ -72,7 +72,7 @@
                 <li>You have immunity to the poisoned condition and immunity to poison damage.</li>
                 <li>You have advantage on saving throws where you would be stunned.</li>
                 <li>Your damage-reducing ability from Steel Skin increases to 5.</li>
-            <ul>
+            </ul>
         </description>
         <sheet>
             <description>
