@@ -39,14 +39,14 @@
         	<description>While Raging, drop your B/P/S resistances until your next turn. Your next melee hit deals +$(streamingcounter:damage)d$(dice:die-size) damage.</description>
     </sheet>
     	<rules>
-        	<stat name="streamingcounter:damage" value="intelligence:modifier:half" level="3" />
-			<stat name="streamingcounter:damage" value="constitution:modifier:half:up" level="3" />
-			<stat name="streamingcounter:damage" value="constitution:modifier:half:up" level="10" />
-			<stat name="streamingcounter:damage" value="intelligence:modifier" level="10" />
-			<stat name="dice:die-size" value="4" level="3" />
-			<stat name="dice:die-size" value="6" level="6" />
-			<stat name="dice:die-size" value="8" level="10" />
-			<stat name="dice:die-size" value="10" level="14" />
+        	<stat name="streamingcounter:damage" value="intelligence:modifier:half" bonus="scaling" level="3" />
+			<stat name="streamingcounter:damage" value="constitution:modifier:half:up" bonus="scaling" level="3" />
+			<stat name="streamingcounter:damage" value="constitution:modifier:half:up" bonus="scaling" level="10" />
+			<stat name="streamingcounter:damage" value="intelligence:modifier" bonus="scaling" level="10" />
+			<stat name="dice:die-size" value="4" bonus="scaling" level="3" />
+			<stat name="dice:die-size" value="6" bonus="scaling" level="6" />
+			<stat name="dice:die-size" value="8" bonus="scaling" level="10" />
+			<stat name="dice:die-size" value="10" bonus="scaling" level="14" />
     	</rules>
 	</element>
 	<element name="Elemental Siphoning" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_SURGE_ELEMENTAL_SIPHONING">
