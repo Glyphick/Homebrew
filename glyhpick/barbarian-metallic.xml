@@ -28,8 +28,7 @@
 
     <element name="Steel Skin" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_STEEL_SKIN">
         <description>
-        	<p>At 3rd level, while you rage, your skin gains the attributes and appearance of steel, perhaps even your hair and clothes, gaining a layer of steel. While raging, you reduce all incoming damage by 3(after resistances.). This capability increases by 1 at level 6, and again at level 14. You also gain a resistance to poison damage.</p>
-        </description>
+		</description>
         <sheet>
             <description>Your body and appearance turns to steel. when raging, you reduce all damage by 3 (after resistances) and are resistant to poison damage.</description>
         </sheet>
@@ -85,5 +84,6 @@
         </rules>
     </element>
 </elements>
+
 
 
