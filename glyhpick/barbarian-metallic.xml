@@ -10,7 +10,8 @@
 	<!-- place your elements here -->
 	<element name="Path of the Metallic Soul" type="Archetype" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_PATH_OF_THE_METALLIC_SOUL">
         <supports>Primal Path</supports>
-        <description>(a Barbarian Subclass)
+        <description>
+            <p>(a Barbarian Subclass)</p>
             <p>Some folks really like the feeling of metal in their hands. It’s strength, it’s power, it’s certainty. But to become it, now that's a bit extreme, but that's the length Path of the Metallic Soul barbarians are willing to go. These warriors will often keep trinkets of various metals, sometimes in the form of jewelry. This is because they want to get closer to their dream of embodying the soul of metals themselves.</p>
             <div element="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_STEEL_SKIN" />
             <div element="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_TUNGSTEN_BONES" />
