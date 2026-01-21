@@ -29,11 +29,6 @@
     <element name="Steel Skin" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_STEEL_SKIN">
         <description>
             <p>At 3rd level, while you rage, your skin gains the attributes and appearance of steel, perhaps even your hair and clothes, gaining a layer of steel. While raging, you reduce all incoming damage by 3(after resistances) and have a resistance to poison damage.</p>
-            <p class="indent">
-                <b>Your wieght doubles.</b>
-                <b>When you are moved against your will, you can reduce that movement by 10 ft.</b>
-                <b>You cannot be knocked prone against your will.</b>
-                <b>Your damage-reducing ability from steel skin increases to 4.</b>
             </p>
         </description>
         <sheet>
