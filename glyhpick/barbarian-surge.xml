@@ -38,9 +38,6 @@
     	<sheet action="Bonus Action">
         	<description>While Raging, drop your B/P/S resistances until your next turn. Your next melee hit deals +$(streamingcounter:damage)d$(dice:die-size) damage.</description>
     </sheet>
-		<setters>
-			<set name="dice:die-size">4</set>
-		</setters>
     	<rules>
         	<stat name="streamingcounter:damage" value="intelligence:modifier:half" level="3" />
 			<stat name="streamingcounter:damage" value="constitution:modifier:half:up" level="3" />
