@@ -52,9 +52,6 @@
                 <li>Your damage-reducing ability increases to 4.</li>
             </ul>
         </description>
-        <sheet>
-            <description>Your bones turn into heavy tungsten, and gain the following benefits: Your weight is doubled, if you are being moved, you can reduce that movement by 10 ft.</description>
-        </sheet>
     </element>
 
     <element name="Aluminium Blood" type="Archetype Feature" source="Glyhpick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_ALUMINUM_BLOOD">
