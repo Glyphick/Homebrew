@@ -8,9 +8,47 @@
 	</info>
 	
 	<!-- place your elements here -->
-	<elements>
+	<element name="Path of the Metallic Soul" type="Archetype" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_PATH_OF_THE_METALLIC_SOUL">
         <supports>Primal Path</supports>
         <description>(a Barbarian Subclass)
             <p>Some folks really like the feeling of metal in their hands. It’s strength, it’s power, it’s certainty. But to become it, now that's a bit extreme, but that's the length Path of the Metallic Soul barbarians are willing to go. These warriors will often keep trinkets of various metals, sometimes in the form of jewelry. This is because they want to get closer to their dream of embodying the soul of metals themselves.</p>
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_STEEL_SKIN" />
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_TUNGSTEN_BONES" />
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_ALUMINIUM_BLOOD" />
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_METAL_SOUL" />
         </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_STEEL_SKIN" level="3" />
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_TUNGSTEN_BONES" level="6" />
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_ALUMINUM_BLOOD" level="10" />
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_METAL_SOUL" level="14" />
+        </rules>
+    </element>
+
+    <element name="Steel Skin" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_STEEL_SKIN">
+        <description>
+            <p>At 3rd level, while you rage, your skin gains the attributes and appearance of steel, perhaps even your hair and clothes, gaining a layer of steel. While raging, you reduce all incoming damage by 3(after resistances) and have a resistance to poison damage.</p>
+            <p class="indent">
+                <b>Your wieght doubles.</b>
+                <b>When you are moved against your will, you can reduce that movement by 10 ft.</b>
+                <b>You cannot be knocked prone against your will.</b>
+                <b>Your damage-reducing ability from steel skin increases to 4.</b>
+            </p>
+        </description>
+        <sheet>
+            <description>Your body and appearance turns to steel. when raging, you reduce all damage by 3 (after resistances) and are resistant to poison damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Tungsten Bones" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_TUNGSTEN_BONES">
+        <description>
+            <p>At 6th level, while you rage, your bones turn into heavy tungsten:
+                <b>Your wieght doubles.</b>
+                <b>When you are moved against your will, you can reduce that movement by 10 ft.</b>
+                <b>You cannot be knocked prone against your will.</b>
+                <b>Your damage-reducing ability from steel skin increases to 4.</b>
+            </p>
+        </description>
+    </element>
 </elements>
