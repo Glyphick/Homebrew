@@ -3,11 +3,12 @@
 	<info>
 		<name>Homebrew Content</name>
 		<update version="1.0.0">
-			<file name="glyphick.index" url="https://raw.githubusercontent.com/Glyphick/Homebrew/master/glyphick.index" />
+			<file name="glyphick.index" url="https://raw.githubusercontent.com/glyphick/Homebrew/master/glyphick.index" />
 		</update>
 	</info>
 	<files>
-		<file name="fighter-implosion-point.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/master/glyphick/fighter-implosion-point.xml" />
-		<file name="barbarian-surge.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/master/glyphick/barbarian-surge.xml" />
+		<file name="fighter-implosion-point.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/refs/heads/master/glyhpick/fighter-implosion-point.xml" />
+		<file name="barbarian-surge.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/refs/heads/master/glyhpick/barbarian-surge.xml" />
+		<file name="barbarian-metallic.xml" url="https://raw.githubusercontent.com/glyphick/Homebrew/refs/heads/master/Glyphick/barbarian-metallic.xml" />
 	</files>
 </index>

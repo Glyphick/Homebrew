@@ -3,7 +3,7 @@
 	<info>
 		<name>Implosion Point</name>
 		<update version="1.0.0">
-			<file name="fighter-implosion-point.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/master/glyphick/fighter-implosion-point.xml" />
+			<file name="fighter-implosion-point.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/refs/heads/master/glyhpick/fighter-implosion-point.xml" />
 		</update>
 	</info>
 	

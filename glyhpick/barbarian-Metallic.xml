@@ -3,7 +3,7 @@
 	<info>
 		<name>Path of the Metallic Soul</name>
 		<update version="1.0.0">
-			<file name="barbarian-metallic.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/master/Glyphick/barbarian-metallic.xml" />
+			<file name="barbarian-metallic.xml" url="https://raw.githubusercontent.com/glyphick/Homebrew/refs/heads/master/Glyphick/barbarian-metallic.xml" />
 		</update>
 	</info>
 	

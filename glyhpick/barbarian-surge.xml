@@ -5,7 +5,7 @@
 		<description>The Surge that flows through all.</description>
 		<author>Glyphick</author>
 		<update version="1.0.0">
-			<file name="barbarian-surge.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/master/glyphick/barbarian-surge.xml" />
+			<file name="barbarian-surge.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/refs/heads/master/glyhpick/barbarian-surge.xml" />
 		</update>
 	</info>
 	
