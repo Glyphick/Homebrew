@@ -97,9 +97,9 @@
         	<description>Spend 1 Tension Point to conjure an implosion within 30ft. Targets within 10ft of the point must succeed on a DC $(dc:badpressure) Strength saving throw or be knocked prone.</description>
 		</sheet>
 		<rules>
-		<stat name="dc:badpressure" value="8" />
-		<stat name="dc:badpressure" value="intelligence:modifier" />
-		<stat name="dc:badpressure" value="proficiency" />
+			<stat name="dc:badpressure" value="8" />
+			<stat name="dc:badpressure" value="intelligence:modifier" />
+			<stat name="dc:badpressure" value="proficiency" />
 		</rules>
 	</element>
 	<element name="Pressure Movement" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_PRESSURE_MOVEMENT">
