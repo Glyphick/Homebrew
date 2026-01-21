@@ -14,8 +14,8 @@
 		<supports>Primal Path</supports>
 		<requirements>ID_WOTC_PHB_CLASS_BARBARIAN</requirements>
 		<description>
-			<p>The surge of energy becomes palpable to your deft hands, your eyes see what others cannot. what lies before you is an untouched canvas of pure energy. How will you leave your mark?</p>
-			<p class="indent">insert flavor text</p>
+			<p>A barbarian Subclass.</p>
+			<p class="indent">The surge of energy becomes palpable to your deft hands, your eyes see what others cannot. what lies before you is an untouched canvas of pure energy. How will you leave your mark?</p>
 			<div element="ID_GLY_GH_ARCHETYPE_FEATURE_SURGE_STREAMING_COUNTER" />
 			<div element="ID_GLY_GH_ARCHETYPE_FEATURE_SURGE_ELEMENTAL_SIPHONING" />
 			<div element="ID_GLY_GH_ARCHETYPE_FEATURE_SURGE_SURGING_FURY" />
