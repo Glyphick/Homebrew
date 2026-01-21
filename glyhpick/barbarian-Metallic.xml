@@ -28,22 +28,61 @@
 
     <element name="Steel Skin" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_STEEL_SKIN">
         <description>
-            <p>At 3rd level, while you rage, your skin gains the attributes and appearance of steel, perhaps even your hair and clothes, gaining a layer of steel. While raging, you reduce all incoming damage by 3(after resistances) and have a resistance to poison damage.</p>
+            <p>At 3rd level, while you rage, your skin gains the attributes and appearance of steel, perhaps even your hair and clothes, gaining a layer of steel. While raging, you reduce all incoming damage by 3(after resistances.). This capability increases by 1 at level 6, and again at level 14. You also gain a resistance to poison damage.</p>
             </p>
         </description>
         <sheet>
             <description>Your body and appearance turns to steel. when raging, you reduce all damage by 3 (after resistances) and are resistant to poison damage.</description>
         </sheet>
+        <rules>
+            <stat name="Steel:damagereduce" value="3" level="3" />
+            <stat name="Steel:damagereduce" value="4" level="6" />
+            <stat name="Steel:damagereduce" value="5" level="14" />
+            <grant type="condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" level="3" />
+            <grant type="condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON" level="14" />
+        </rules>
     </element>
 
     <element name="Tungsten Bones" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_TUNGSTEN_BONES">
         <description>
-            <p>At 6th level, while you rage, your bones turn into heavy tungsten:
-                <b>Your wieght doubles.</b>
-                <b>When you are moved against your will, you can reduce that movement by 10 ft.</b>
-                <b>You cannot be knocked prone against your will.</b>
-                <b>Your damage-reducing ability from steel skin increases to 4.</b>
-            </p>
+            <p>At 6th level, while you rage, your bones turn into heavy tungsten:</p>
+            <ul>
+                <li>Your weight doubles.</li>
+                <li>When you are moved against your will, you can reduce that movement by 10 ft.</li>
+                <li>You cannot be knocked prone against your will.</li>
+                <li>Your damage-reducing ability from steel skin increases to 4.</li>
+            <ul>
         </description>
+        <sheet>
+            <description>Your bones turn into heavy tungsten, and gain the following benefits: Your weight is doubled, if you are being moved, you can reduce that movement by 10 ft.</description>
+    </element>
+
+    <element name="Aluminium Blood" type="Archetype Feature" source="Glyhpick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_ALUMINUM_BLOOD">
+        <description>
+            <p>At 10th level, your blood turns into molten aluminium(although it turns to normal blood once it leaves your body). This gives advantage on constitution saving throws against extreme weather. This also slows the rate at which you bleed out, giving you advantage on death saving throws.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on constitution saving throws against weather, and also gain advantage on death saving throws.</description>
+        </sheet>
+    </element>
+
+    <element name="Metal Soul" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_METAL_SOUL">
+        <description>
+            <p>At 14th level, your soul is assimilated with the refined and hardened metals. While you rage, your body further gains the features of various metals and their alloys:</p>
+            <ul>
+                <li>You have immunity to the poisoned condition and immunity to poison damage.</li>
+                <li>You have advantage on saving throws where you would be stunned.</li>
+                <li>Your damage-reducing ability from Steel Skin increases to 5.</li>
+            <ul>
+        </description>
+        <sheet>
+            <description>
+                <p>You gain immunities to the poisoned condition and poison damage.</p>
+                <p>You have advantage on saving throws against being stunned.</p>
+            </description>
+        </sheet>
+        <rules>
+            <grant type="condition" id="ID_INTERNAL_CONDITION_CONDITION_UMMUNITY_POISONED" />
+        </rules>
     </element>
 </elements>
