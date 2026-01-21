@@ -7,7 +7,7 @@
 		</update>
 	</info>
 	<files>
-		<file name="fighter-implosion-point.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/master/Glyphick/fighter-implosion-point.xml" />
-		<file name="barbarian-surge.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/master/Glyphick/barbarian-surge.xml" />
+		<file name="fighter-implosion-point.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/master/glyphick/fighter-implosion-point.xml" />
+		<file name="barbarian-surge.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/master/glyphick/barbarian-surge.xml" />
 	</files>
 </index>
