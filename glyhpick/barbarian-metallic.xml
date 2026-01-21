@@ -50,7 +50,7 @@
                 <li>When you are moved against your will, you can reduce that movement by 10 ft.</li>
                 <li>You cannot be knocked prone against your will.</li>
                 <li>Your damage-reducing ability from steel skin increases to 4.</li>
-            <ul>
+			</ul>
         </description>
         <sheet>
             <description>Your bones turn into heavy tungsten, and gain the following benefits: Your weight is doubled, if you are being moved, you can reduce that movement by 10 ft.</description>
@@ -85,6 +85,7 @@
         </rules>
     </element>
 </elements>
+
 
 
 
