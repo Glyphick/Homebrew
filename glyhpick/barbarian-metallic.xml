@@ -36,8 +36,8 @@
         </sheet>
         <rules>
             <stat name="Steel:damagereduce" value="3" level="3" />
-            <stat name="Steel:damagereduce" value="4" level="6" />
-            <stat name="Steel:damagereduce" value="5" level="14" />
+            <stat name="Steel:damagereduce" value="1" level="6" />
+            <stat name="Steel:damagereduce" value="1" level="14" />
             <grant type="condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" level="3" />
             <grant type="condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON" level="14" />
         </rules>
