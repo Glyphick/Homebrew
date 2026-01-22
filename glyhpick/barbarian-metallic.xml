@@ -78,15 +78,16 @@
         </description>
         <sheet>
             <description>
-                <p>You gain immunities to the poisoned condition and poison damage.</p>
-                <p> You have advantage on saving throws against being stunned.</p>
+                <p>You gain the following Capabilities:</p>
+				<ul>
+					<li>You gain immunities to the poisoned condition and poison damage.</li>
+					<li>You have advantage on saving throws against being stunned.</li>
+				</ul>
             </description>
         </sheet>
-        <rules>
-            <grant type="condition" id="ID_INTERNAL_CONDITION_CONDITION_IMMUNITY_POISONED" />
-        </rules>
     </element>
 </elements>
+
 
 
 
