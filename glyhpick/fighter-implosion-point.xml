@@ -120,7 +120,7 @@
 	</element>
 	<element name="Unstable Implosion" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_IMPLOSION_UNSTABLE_IMPLOSION">
     	<description>
-       		<p>When you overcharge an Implosion, you deal an extra 1d8 damage for each additional Tension point spent beyond the first (max $(intelligence:modifier) additional points).</p>
+       		<p>When you overcharge an Implosion, you deal an extra 1d8 damage for each additional Tension point spent beyond the first (Max of your Intelligence modifier).</p>
     	</description>
     	<sheet usage="1/Long Rest" action="Special">
         	<description>Overcharge an Implosion (Max extra points: $(intelligence:modifier)). Deal +1d8 damage per extra point. Penalty: -2 to attack per extra point (or Disadvantage if 4+ points spent). You take 2d8 bludgeoning damage.</description>
