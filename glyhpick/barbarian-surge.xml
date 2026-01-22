@@ -33,21 +33,11 @@
 	<!-- Example of how to start the next element -->
 	<element name="Streaming Counter" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_SURGE_STREAMING_COUNTER">
     	<description>
-        	<p>Starting at the 3rd level, you can funnel kinetic energy from your wounds. While raging, you can use a bonus action to drop your resistances until the start of your next turn. Your first successful melee attack on your next turn deals extra damage equal to half the damage you took while your resistances were lowered (Max: twice your barbarian level).</p>
+        	<p>Starting at the 3rd level, you can funnel kinetic energy from your wounds. While raging, you can use a bonus action to drop your resistances until the start of your next turn. Your first successful melee attack on your next turn deals extra damage equal to half the damage you took while your resistances were lowered.</p>
     	</description>
     	<sheet action="Bonus Action">
-        	<description>While Raging, drop your B/P/S resistances until your next turn. Your next melee hit deals +$(streamingcounter:damage)d$(dice:die-size) damage.</description>
-    </sheet>
-    	<rules>
-        	<stat name="streamingcounter:damage" value="intelligence:modifier:half" bonus="scaling" level="3" />
-			<stat name="streamingcounter:damage" value="constitution:modifier:half:up" bonus="scaling" level="3" />
-			<stat name="streamingcounter:damage" value="constitution:modifier:half:up" bonus="scaling" level="10" />
-			<stat name="streamingcounter:damage" value="intelligence:modifier" bonus="scaling" level="10" />
-			<stat name="dice:die-size" value="4" bonus="scaling" level="3" />
-			<stat name="dice:die-size" value="6" bonus="scaling" level="6" />
-			<stat name="dice:die-size" value="8" bonus="scaling" level="10" />
-			<stat name="dice:die-size" value="10" bonus="scaling" level="14" />
-    	</rules>
+        	<description>While Raging, drop your B/P/S resistances until your next turn. Your next melee hit deals half the amount of damage you took.</description>
+    	</sheet>
 	</element>
 	<element name="Elemental Siphoning" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_SURGE_ELEMENTAL_SIPHONING">
     	<description>
