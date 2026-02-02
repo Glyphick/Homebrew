@@ -4,14 +4,14 @@
         <name>Physician</name>
         <author url="https://www.gmbinder.com/share/-N9NlG87xgs7cnp88ed-">Fun_kiddo</author>
         <update version="0.0.1">
-            <file name="class-physician.xml" url="">
+            <file name="class-physician.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/refs/heads/master/glyhpick/class-physician.xml">
         </update>
     </info>
 
     <element name="Physician" type="Class" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_PHYSICIAN">
         <description>
-            <p>A dying man wanders the streets, looking for any help he can, and comes across a small shack with an old man inside. The man stumbles in with his fading vision and begs for help of the stranger, and right before he falls unconscious he sees the old figure pull out some needles and string, and with a strong yet soothing voice say, "Do not worry, I'm a Doctor", before his vision finally goes dark.</p>
-            <p class="indent">A great red dragon roars at the group of adventurers, attempting to steal its horde instilling fear in their hearts. Except one immediately runs at the dragon and with a quick look shouts out its weakness, with a quick stab breaking off it's scales creating an opening for its allies to use.</p>
+            <p>A dying man wanders the streets, looking for any help he can, and comes across a small shack with an old man inside. The man stumbles in with his fading vision and begs for help from the stranger, and right before he falls unconscious, he sees the old figure pull out some needles and string, and with a strong yet soothing voice say, "Do not worry, I'm a Doctor", before his vision finally goes dark.</p>
+            <p class="indent">A great red dragon roars at the group of adventurers, attempting to steal its horde, instilling fear in their hearts. Except one immediately runs at the dragon and with a quick look shouts out its weakness, with a quick stab breaking off it's scales creating an opening for its allies to use.</p>
             <p class="indent">Through the clanging of metal and the splatter of blood on a harsh battlefield, a singular figure calmly walks through it. It walks wearing a dark mask with dark bottles in its hands. Each of the steps bringing dark miasma with him, with foes around it immediately falling to their knees, coughing up blood, and screaming in terror.</p>
             <p class="indent">Physicians may come in various forms, but one thing they all have in common is their understanding of life. Both of how to save it and make it blossom, as well as how to unmake it and make it crumble onto itself, slowly but inevitably through their great understanding.</p>
             <h4>THE MAN IN A WORLD OF MAGIC</h4>
@@ -19,12 +19,12 @@
             <h4>TRUE UNDERSTANDING</h4>
             <p>All physicians seek to study and comprehend the world with all of its intricacies, hoping to prove the might of every person and the power a mere man can possess, with the might of knowledge and understanding, wielding it as their eternal weapon and shield.</p>
             <h4>NEVER ENDING STUDY</h4>
-            <p>A physicians journey to true understanding is a long one, often through many trials and tribulations. To understand all creatures, how life truly works and the very nature of the world, is a destination with no certain path, so many take different roads. Some study it in battle, through dissecting their opponents and understanding what makes them act the way they do, while others sit in studies researching herbs and reading theory, to try and comprehend the laws of the world. But few in the end see the peak of the path. Those that do, become creatures of myth, who very often are even misunderstood as miracle workers and creatures of magic themselves, without even doing a singular bit of magic. All through the simple, unchanging power of science.</p>
+            <p>A physicians journey to true understanding is a long one, often through many trials and tribulations. To understand all creatures, how life truly works, and the very nature of the world, is a destination with no certain path, so many take different roads. Some study it in battle, through dissecting their opponents and understanding what makes them act the way they do, while others sit in studies researching herbs and reading theory, to try and comprehend the laws of the world. But few in the end see the peak of the path. Those that do, become creatures of myth, who very often are even misunderstood as miracle workers and creatures of magic themselves, without even doing a singular bit of magic. All through the simple, unchanging power of science.</p>
             <h4>CREATING A PHYSICIAN</h4>
-            <p>As you build your physician character, consider their ties to the medical field. Did they learn their craft out of neccessity or fascination? Do you work for a Medical firm or are you a stand alone business? Or are you a non-licensed surgeon healing people you come across? What strives you to heal so many people?</p>
-            <p>What was the moment that caused a shift in your life to lead to this path? did someone important to you die from a wound that no one knew how to heal? Maybe someone saved you from death and wish to do the same for others. Or perhaps you wish to help others by your own means, and not by magic or other standards. Or maybe you've discovered a new life to follow—one you can live where you can unlock your true potential.</p>
+            <p>As you build your physician character, consider their ties to the medical field. Did they learn their craft out of necessity or fascination? Do you work for a Medical firm or are you a stand alone business? Or are you a non-licensed surgeon healing people you come across? What strives you to heal so many people?</p>
+            <p>What was the moment that caused a shift in your life to lead to this path? Did someone important to you die from a wound that no one knew how to heal? Maybe someone saved you from death and wishes to do the same for others. Or perhaps you wish to help others by your own means, and not by magic or other standards. Or maybe you've discovered a new life to follow—one you can live where you can unlock your true potential.</p>
             <h5>QUICK BUILD</h5>
-            <p>You can make a physician quickly by following these suggestions. First, make intelligience your highest ability score. Your next highest score should be Dexterity. Second, choose the sage background.</p>
+            <p>You can make a physician quickly by following these suggestions. First, make intelligence your highest ability score. Your next highest score should be Dexterity. Second, choose the sage background.</p>
             <h3>CLASS FEATURES</h3>
             <p>As a Physician, you have the following class features.</p>
             <h5>HIT POINTS</h5>
@@ -379,4 +379,5 @@
             <description>When rolling dice for healing, you always treat it as if rolling the maximum result.</description>
         </sheet>
     </element>
+
 </elements>
