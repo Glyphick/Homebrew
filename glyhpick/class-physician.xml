@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+        <name>Physician</name>
+        <author url="https://www.gmbinder.com/share/-N9NlG87xgs7cnp88ed-">Fun_kiddo</author>
+        <update version="0.0.1">
+            <file name="class-physician.xml" url="">
+        </update>
+    </info>
+
+    <element name="Physician" type="Class" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_PHYSICIAN">
+        <description>
+            <p>A dying man wanders the streets, looking for any help he can, and comes across a small shack with an old man inside. The man stumbles in with his fading vision and begs for help of the stranger, and right before he falls unconscious he sees the old figure pull out some needles and string, and with a strong yet soothing voice say, "Do not worry, I'm a Doctor", before his vision finally goes dark.</p>
+            <p class="indent">A great red dragon roars at the group of adventurers, attempting to steal its horde instilling fear in their hearts. Except one immediately runs at the dragon and with a quick look shouts out its weakness, with a quick stab breaking off it's scales creating an opening for its allies to use.</p>
+            <p class="indent">Through the clanging of metal and the splatter of blood on a harsh battlefield, a singular figure calmly walks through it. It walks wearing a dark mask with dark bottles in its hands. Each of the steps bringing dark miasma with him, with foes around it immediately falling to their knees, coughing up blood, and screaming in terror.</p>
+            <p class="indent">Physicians may come in various forms, but one thing they all have in common is their understanding of life. Both of how to save it and make it blossom, as well as how to unmake it and make it crumble onto itself, slowly but inevitably through their great understanding.</p>
+            <h4>THE MAN IN A WORLD OF MAGIC</h4>
+            <p>In a world of magic, filled with followers of gods and mages capable of bending the very fabric of reality, the physician is a humble existence. While magic can heal wounds with a snap, not everyone is blessed with such power and talent, or even the ability to try. Because of that, many take up books to still try and understand medicine and how to save lives. While creatures of magic can heal without fully understanding what they are doing, physicians pride themselves on their knowledge, which allows them to fix things that even magic couldn't, and with great precision at that.</p>
+            <h4>TRUE UNDERSTANDING</h4>
+            <p>All physicians seek to study and comprehend the world with all of its intricacies, hoping to prove the might of every person and the power a mere man can possess, with the might of knowledge and understanding, wielding it as their eternal weapon and shield.</p>
+            <h4>NEVER ENDING STUDY</h4>
+            <p>A physicians journey to true understanding is a long one, often through many trials and tribulations. To understand all creatures, how life truly works and the very nature of the world, is a destination with no certain path, so many take different roads. Some study it in battle, through dissecting their opponents and understanding what makes them act the way they do, while others sit in studies researching herbs and reading theory, to try and comprehend the laws of the world. But few in the end see the peak of the path. Those that do, become creatures of myth, who very often are even misunderstood as miracle workers and creatures of magic themselves, without even doing a singular bit of magic. All through the simple, unchanging power of science.</p>
+            <h4>CREATING A PHYSICIAN</h4>
+            <p>As you build your physician character, consider their ties to the medical field. Did they learn their craft out of neccessity or fascination? Do you work for a Medical firm or are you a stand alone business? Or are you a non-licensed surgeon healing people you come across? What strives you to heal so many people?</p>
+            <p>What was the moment that caused a shift in your life to lead to this path? did someone important to you die from a wound that no one knew how to heal? Maybe someone saved you from death and wish to do the same for others. Or perhaps you wish to help others by your own means, and not by magic or other standards. Or maybe you've discovered a new life to follow—one you can live where you can unlock your true potential.</p>
+            <h5>QUICK BUILD</h5>
+            <p>You can make a physician quickly by following these suggestions. First, make intelligience your highest ability score. Your next highest score should be Dexterity. Second, choose the sage background.</p>
+            <h3>CLASS FEATURES</h3>
+            <p>As a Physician, you have the following class features.</p>
+            <h5>HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d8 per physician level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per physician level after first.</li>
+            </ul>
+            <h5>PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+        	    <li><strong>Armor:</strong> Light armor, medium armor</li>
+			    <li><strong>Weapons:</strong> Simple weapons, Rapiers, Hand Crossbows</li>
+			    <li><strong>Tools:</strong> Herbalism kit</li>
+            </ul>
+            <ul class="unstyled">
+				<li><strong>Saving Throws:</strong> Intelligience, Wisdom</li>
+				<li><strong>Skills:</strong> Choose four from Arcana, Insight, Deception, Nature, Perception, Slight of Hand, Stealth or History.</li>
+		    </ul>
+		    <h5>EQUIPMENT</h5>
+		    <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+		    <ul>
+			    <li>(a) Two simple weapons of your choice or (b) a Rapier.</li>
+			    <li>(a) A light Crossbow and 20 bolts or (b) two daggers.</li>
+			    <li>Herbalism kit</li>
+			    <li>Leather armor and a scholar's pack.</li>
+		    </ul>
+            <h5 class="caption">THE PHYSICIAN</h5>
+            <table class="class-features">
+                <thead>
+				    <tr><td class="col-5">Level</td><td class="col-10">First Aid</td><td class="col-60 left">Features</td></tr>
+			    </thead>
+			    <tr><td> 1st</td><td>1d8</td><td class="left">Student of Medicine, Unarmored Defense, First Aid</td></tr>
+			    <tr><td> 2nd</td><td>1d8</td><td class="left">Battle Inquiry</td></tr>
+			    <tr><td> 3rd</td><td>2d8</td><td class="left">Physician Study Feature</td></tr>
+			    <tr><td> 4th</td><td>2d8</td><td class="left">Ability Score Improvement</td></tr>
+			    <tr><td> 5th</td><td>3d8</td><td class="left">This is for the Future, You're Doing it wrong!</td></tr>
+			    <tr><td> 6th</td><td>3d8</td><td class="left">Prosthetics, Total Body Shutdown</td></tr>
+			    <tr><td> 7th</td><td>4d8</td><td class="left">Physician Study Feature</td></tr>
+			    <tr><td> 8th</td><td>4d8</td><td class="left">Ability Score Improvement</td></tr>
+			    <tr><td> 9th</td><td>Sd8</td><td class="left">You're not dying on me.</td></tr>
+			    <tr><td>10th</td><td>Sd8</td><td class="left">Physician Study Feature</td></tr>
+			    <tr><td>11th</td><td>6d8</td><td class="left">Experimental Treatments</td></tr>
+			    <tr><td>12th</td><td>6d8</td><td class="left">Ability Score Improvement</td></tr>
+			    <tr><td>13th</td><td>7d8</td><td class="left">Self-Treatment</td></tr>
+			    <tr><td>14th</td><td>7d8</td><td class="left">Risky Stitches</td></tr>
+			    <tr><td>15th</td><td>8d8</td><td class="left">Physician Study Feature</td></tr>
+			    <tr><td>16th</td><td>8d8</td><td class="left">Ability Score Improvement</td></tr>
+			    <tr><td>17th</td><td>9d8</td><td class="left">Complete Understanding</td></tr>
+			    <tr><td>18th</td><td>9d8</td><td class="left">Physician Study Feature</td></tr>
+			    <tr><td>19th</td><td>10d8</td><td class="left">Ability Score Improvement, Countless Experience</td></tr>
+			    <tr><td>20th</td><td>10d8</td><td class="left">Trust me, I'm a doctor.</td></tr>
+            </table>
+            <div element="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_STUDENT_OF_MEDICINE" />
+            <div element="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_STABILIZE" />
+            <div element="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_UNARMORED_DEFENSE" />
+            <div element="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_FIRST_AID" />
+            <div element="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_BATTLE_INQUIRY" />
+            <div element="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_PHYSICIANSTUDY" />
+            <div element="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_THIS_IS_FOR_THE_FUTURE" />
+            <div element="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_YOURE_DOING_IT_WRONG" />
+            <div element="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_PROSTHETICS" />
+            <div element="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_TOTAL_BODY_SHUTDOWN" />
+            <div element="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_ABILITYSCOREIMPROVEMENT_PHYSICIAN" />
+            <div element="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_YOURE_NOT_DYING_ON_ME" />
+            <div element="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_EXPERIMENTAL_TREATMENTS" />
+            <div element="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_SELF_TREATMENT" />
+            <div element="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_RISKY_STITCHES" />
+            <div element="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_COMPLETE_UNDERSTANDING" />
+            <div element="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_EXPERT_PRACTITIONER" />
+            <div element="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_TRUSTME_IMADOCTOR" />
+        </description>
+        <sheet display="false">
+            <description>A Doctor who uses science to heal instead of Magic.</description>
+        </sheet>
+        <setters>
+            <set name="short">A Doctor who uses science to heal instead of Magic.</set>
+            <set name="hd">d8</set>
+        </setters>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_GLY_GH_MULTICLASS_PHYSICIAN" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_GLY_GH_MULTICLASS_PHYSICIAN" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_GLY_GH_MULTICLASS_PHYSICIAN" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" requirements="!ID_GLY_GH_MULTICLASS_PHYSICIAN" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICENCY_CROSSBOW_HAND" requirements="!ID_GLY_GH_MULTICLASS_PHYSICIAN" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" requirements="!ID_GLY_GH_MULTICLASS_PHYSICIAN" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_GLY_GH_MULTICLASS_PHYSICIAN" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_GLY_GH_MULTICLASS_PHYSICIAN" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" requirements="!ID_GLY_GH_MULTICLASS_PHYSICIAN" />
+            <select type="Proficiency" name="Skill Proficiency (Physician)" supports="Skill,Physician" number="3" />
+            <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_STUDENT_OF_MEDICINE" level="1" />
+            <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_STABILIZE" level="1" />
+            <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_UNARMORED_DEFENSE" level="1" />
+            <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_FIRST_AID" level="1" />
+            <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_BATTLE_INQUIRY" level="2" />
+            <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_PHYSICIANSTUDY" level="3" />
+            <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_ABILITYSCOREIMPROVEMENT_PHYSICIAN" level="4" />
+            <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_THIS_IS_FOR_THE_FUTURE" level="5" />
+            <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_YOURE_DOING_IT_WRONG" level="5" />
+            <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_PROSTHETICS" level="6" />
+            <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_TOTAL_BODY_SHUTDOWN" level="6" />
+            <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_YOURE_NOT_DYING_ON_ME" level="9" />
+            <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_EXPERIMENTAL_TREATMENTS" level="11" />
+            <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_SELF_TREATMENT" level="13" />
+            <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_RISKY_STITCHES" level="14" />
+            <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_COMPLETE_UNDERSTANDING" level="17" />
+            <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_EXPERT_PRACTITIONER" level="19" />
+            <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_TRUSTME_IMADOCTOR" level="20" />
+        </rules>
+        <multiclass id="ID_GLY_GH_MULTICLASS_PHYSICIAN">
+            <prerequisite>Intelligence 13</prerequisite>
+            <requirements>[int:13]</requirements>
+            <setters>
+                <set name="multiclass proficiencies">Light and Medium armor, Medicine skill, one skill from class's skill list, Herbalism Kit.</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+                <grant type="Proficiency" id="IDPROFICIENCY_SKILL_MEDICINE" />
+                <select type="Proficiency" name="Skill Proficiency (Physician)" supports="Skill,Physician" number="1" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />
+			</rules>
+		</multiclass>
+    </element>
+    <element name="Student of Medicine" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_STUDENT_OF_MEDICINE">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_STUDENT_OF_MEDICINE</requirements>
+        <description>
+            <p>At 1st level, you have gathered enough knowledge to know intricacies of a body quite well. You can now use your Intelligence instead of Wisdom modifier when making Medicine checks.</p>
+            <p class="indent"> In addition, your proficiency bonus with those checks is doubled.</p>
+        </description>
+        <sheet>
+            <description>You gain Expertise in medicine checks. You can use Intelligience instead of Wisdom when making Medicine checks.</description>
+        </sheet>
+        <rules>
+            <stat name="medicine:misc" value="-wisdom:modifier" />
+            <stat name="medicine:misc" value="intelligence:modifier" />
+            <stat name="medicine:proficiency" value="proficiency" bonus="double" />
+        </rules>
+    </element>
+    <element name="Unarmored Defense" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_UNARMORED_DEFENSE">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_UNARMORED_DEFENSE</requirements>
+        <description>
+            <p>Beginning with 1st level, you have understanding of creatures physiology, allowing you to predict their movements and attacks.</p>
+            <p class="indent">While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Intelligence modifier. You can still use a shield and gain this benefit.</p>
+        </description>
+        <sheet>
+            <description>While you aren't wearing armor, your AC equals {{ac:unarmored-defense-physician}}. You can use a sheild and still gain this benefit.</description>
+        </sheet>
+        <rules>
+            <stat name="ac:unarmored-defense-physician:base" value="10" />
+            <stat name="ac:unarmored-defense-physician:dexterity" value="dexterity:modifier" />
+            <stat name="ac:unarmored-defense-physician:intelligence" value="intelligience:modifier" />
+
+            <stat name="ac:unarmored-defense-physician" value="ac:unarmored-defense-physician:base" />
+            <stat name="ac:unarmored-defense-physician" value="ac:unarmored-defense-physician:dexterity" />
+            <stat name="ac:unarmored-defense-physician" value="ac:unarmored-defense-physician:intelligence" />
+            
+            <stat name="ac:calculation" value="ac:unarmored-defense-physician" bonus="calculation" equipped="[armor:none]" alt="Unarmored Defense (Physician)">
+        </rules>
+    </element>
+    <element name="First Aid" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_FIRST_AID">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_FIRST_AID</requirements>
+        <description>
+            <p>At 1st level, you have enough experience to perform simple and quick treatments when needed. As an action you can give first aid to a creature within 5ft of you. When you do so, choose a number of First Aid Dice available to you according to the The Physician class table, then make an Intelligence (Medicine) check. These dice are not expended. The DC for the Intelligence (Medicine) check is 10, plus 2 for each First Aid Die you chose when beginning the attempt. On a success, roll the First Aid Dice and the target creature heals that many hit points plus your Physician level. On a failure, they regain half the number of hit points. If the result of the Intelligence (Medicine) check is greater than the DC by 5 or more, you roll twice the number of First Aid Dice you chose when beginning the attempt. A creature can only be healed by First Aid number of times equal to your proficiency modifier, before requiring to take a short rest to be healed this way again.</p>
+            <p>Additionally, you may stabilize an unconscious creature as a bonus action, and doing so does not require an Intelligence (Medicine) check, as long as you are familiar with the creature’s general biology.</p>
+        </description>
+        <sheet action="Action">
+            <description>You have {{firstaid:dice}} First Aid Dice. These dice are d8s. As an action, you can give first aid to a creature within 5ft of you. Choose a number of First Aid Dice, then make a intelligience medicine check. These dice are not expended. the DC for the check is 10 plus 2 for each FirstAid Die you choose when you begin the attempt. On a scuccess, Roll the First Aid Dice and the target heals that many hitpoints + your physician level. If the result of the check is greater than 5 or more, you then roll twice the number of First aid Dice you chose when beginning the attempt. A creature can be healed up to {{proficiency}}</description>
+        </sheet>
+        <rules>
+            <stat name="firstaid:dice" value="1" level="1" />
+            <stat name="firstaid:dice" value="1" level="3" />
+            <stat name="firstaid:dice" value="1" level="5" />
+            <stat name="firstaid:dice" value="1" level="7" />
+            <stat name="firstaid:dice" value="1" level="9" />
+            <stat name="firstaid:dice" value="1" level="11" />
+            <stat name="firstaid:dice" value="1" level="13" />
+            <stat name="firstaid:dice" value="1" level="15" />
+            <stat name="firstaid:dice" value="1" level="17" />
+            <stat name="firstaid:dice" value="1" level="19" />
+        </rules>
+    </element>
+    <element name="Stabilize" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_STABILIZE">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_STABILIZE</requirements>
+        <description>
+            <p>You may stabilize an unconscious creature as a bonus action, and doing so does not require an intelligence (medicine) check, as long as you are familiar with the creature's biology.</p>
+        </description>
+        <sheet>
+            <description>You can stabilize an unconscious creature as a bonus action without making a medicine check, as long as you are familiar with the creature's biology.</description>
+        </sheet>
+    </element>
+    <element name="Battle Inquiry" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_BATTLE_INQUIRY">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_BATTLE_INQUIRY</requirements>
+        <description>
+            <p>Beginning at 2nd level, you have gained some battle knowledge, allowing you to know your foes even better, especially after seeing a bit of their innards. After you hit an enemy with an attack, as a bonus action you may choose them as a target of Analysis. Make an Intelligence (Medicine) check contested by your target's Charisma (Deception) check. If you succeed, you find out one piece of information from the following list at random:
+            <ul>
+                <li>Highest Ability Score</li>
+                <li>Lowest Ability Score</li>
+                <li>It's maximum Hitpoints</li>
+                <li>If any, one vulnerability, resistance, or immunity. if it has multiple, it is determined at random and if it doesn't have any you find that out as well.</li>
+            <p class="indent"> Once you successfully study a creature this way, it becomes "Analyzed" and for the next minute, whenever you hit it with an attack, you may additionally add your Intelligence modifier to the damage roll.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>
+                <p>After you hit an enemy with an attack, you can use this feature to roll a Medicine check, having the target roll a Deception check. if you succeed, you find out one of the following pieces of information at random:</p>
+                <ul>
+                    <li>Highest Ability Score</li>
+                    <li>Lowest Ability Score</li>
+                    <li>It's maximum Hitpoints</li>
+                    <li>If any, one vulnerability, resistance, or immunity. if it has multiple, it is determined at random and if it doesn't have any you find that out as well.</li>
+                </ul>
+                <p>The target then becomes "analyzed", and for the next minute, you may deal a bonus {{intelligence:modifier}} to the damage roll.</p>
+            </description>
+        </sheet>
+    </element>
+    <element name="Physician Study" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_PHYSICIANSTUDY">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_PHYSICIAN_STUDY</requirements>
+        <description>
+            <p>At 3rd level, choose the type of study you focus. Each choice is detailed after the class' description. Your choice grants you features at 3rd level and again at 7th, 10th, 15th and 18th.
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype" name="Physician Study" supports="Physician Study" level="3" />
+        </rules>
+    </element>
+    <element name="Ability Score Improvement" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_ABILITYSCOREIMPROVEMENT_PHYSICIAN">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_ABILITY_SCORE_IMPROVEMENT</requirements>
+        <description>
+            <p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <select type="Class Feature" name="Improvement Option (Physician 4)" supports="Improvement Option,Physician,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Physician 8)" supports="Improvement Option,Physician,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Physician 10)" supports="Improvement Option,Physician,10" level="10" />
+			<select type="Class Feature" name="Improvement Option (Physician 12)" supports="Improvement Option,Physician,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Physician 16)" supports="Improvement Option,Physician,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Physician 19)" supports="Improvement Option,Physician,19" level="19" />
+        </rules>
+    </element>
+    <element name="This is for the Future" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_THIS_IS_FOR_THE_FUTURE">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_THIS_IS_FOR_THE_FUTURE</requirements>
+        <description>
+            <p>When you reach 5th level, you know that the people you take care of tend to constantly get in trouble, so when you patch them up you can now take precautions. When using First Aid, any healing that would exceed the creature’s Hit Point maximum is converted into Temporary Hit Points, which last for 1 minute. You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
+        </description>
+        <sheet usage="max(1, {{intelligence:modifier}})/Long Rest">
+            <description>When you use the First Aid feature and exceed a creature's maximum hitpoints, you can convert the extra healing into temporary hitpoints that last for a minute.</description>
+        </sheet>
+    </element>
+    <element name="You're Doing it wrong!" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_YOURE_DOING_IT_WRONG">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_YOURE_DOING_IT_WRONG</requirements>
+        <description>
+            <p>At 5th level, when you see a creature roll dice for healing by a spell or an ability, as a reaction you may allow the target to reroll any of the dice and use the new result instead. You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any expended uses when you finish a long rest.</P>
+        </description>
+        <sheet action="Reaction" usage="max(1, {{intelligence:modifier}})/Long Rest">
+            <description>whenever you see a creature roll dice for healing by a spell or an ability, you can allow the target to reroll any of the dice and use the new result instead.</description>
+        </sheet>
+    </element>
+    <element name="Student of Medicine" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_PROSTHETICS">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_PROSTHETICS</requirements>
+        <description>
+            <p>Beginning with 6th level, managing to make do with minimal resources has become your daily reality; and from this you have learned much, including the means by which to replace certain limbs, even in the heat of battle. Whenever you make an Intelligence (Medicine) check on an allied creature, if you succeeded by 5 or more, you may improvise a replacement for an organ or a limb that the target is missing (as long as the replacement is even slightly plausible).</p>
+            <p class="indent">Examples are: Inanimate objects, limbs of nearby corpses or stitching on the previously lost limb.</p>
+        </description>
+        <sheet>
+            <description>Whenever you make an  intelligence (medicine) check on an allied creature, if you succeed by 5 or more, you may improvise a replacement for an organ or limb that the target is missing (that is even slightly plausable.)</description>
+        </sheet>
+    </element>
+    <element name="Total Body Shutdown" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_TOTAL_BODY_SHUTDOWN">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_TOTAL_BODY_SHUTDOWN</requirements>
+        <description>
+            <p>Also 6th level your familiarity with biology of all the creatures you have worked on so far has allowed you to know just what you need to do to bring a body to the brink of a complete breakdown. When you hit a creature with an attack, you may immediately as a bonus action make an Intelligence (Medicine) check, as though you were attempting First Aid. If you succeed, target takes Necrotic damage equal to the total of your First Aid roll. Additionally if you succeed by 5 or more, the number of dice is doubled. Once you use this feature, you can't use it again until you finish a long rest.</p>
+        </description>
+        <sheet usage="1/Long Rest">
+            <description>When you hit a creature with an attack, you may immediately as a bonus action make a medicine check as if you were attempting first aid. If you succeed, the target takes necrotic damage equal to to the total of your First Aid roll. additionally, if you succeed by 5 or more, the number of dice is doubled.</description>
+        </sheet>
+    </element>
+    <element name="" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_YOURE_NOT_DYING_ON_ME">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_YOURE_NOT_DYING_ON_ME</requirements>
+        <description>
+            <p>Beginning at 9th level you have gained expertise in treating near death patients and will not allow people to die on your watch. If a creature has died within the last minute, as long as there is a body, you may attempt to resuscitate them. To do so, make an Intelligence (Medicine) Check with DC equal to 10 + the creatures level (or CR). On a success the creature is brought back to life with 1 hp and gains a level of exhaustion. Once you use this feature, you can't use it again until you finish a long rest.</p>
+        </description>
+        <sheet usage="1/Long Rest">
+            <description>If a creature has died within the last minute, as long as there is a body, you may attempt to resuscitate them. Make an intelligence (medicine) check with a DC equal to 10 +the creature's level (or CR). On a success the creature is brought back to life with 1 hp and 1 level of exhaustion.</description>
+        </sheet>
+    </element>
+    <element name="Experimental Treatments" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_EXPERIMENTAL_TREATMENTS">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_EXPERIMENTAL_TREATMENTS</requirements>
+        <description>
+            <p>At 11th level you have created some new treatments for various sicknesses and afflictions that you have encountered through your travels and studies. As an action you may end one of the following conditions:</p>
+            <ul>
+                <li>Poisoned</li>
+                <li>A Poison of your choice</li>
+                <li>Petrified</li>
+                <li>A disease of your choice</li>
+                <li>Maximum hitpoint reduction</li>
+                <li>Paralyzed</li>
+                <li>Stunned</li>
+                <li>Blindness</li>
+                <li>Deafness</li>
+            <p>Additionally you may attempt to end a magical debilitating effect affecting a creature withing 5 feet of you. Make an ability check using your Intelligence Modifier. The DC equals 10 + the spell’s level. On a successful check, the spell ends.</p>
+            <p>You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
+        </description>
+        <sheet usage="max(1,{{intelligence:modifier}})/Long Rest">
+            <description>As an Action you may end one of the following conditions: Poisoned, Petrified, Paralyzed, Stunned, Blindness, Deafness, A Poison of your choice, A disease of your choice, and Maximum hit Points reduction. Ontop of this, you can choose to end a magical effect affecting a creature within 5 ft of you, by rolling an ability check using your intelligence, with a DC of 10 + the spell's level. on a success, the spell ends.</description>
+        </sheet>
+    </element>
+    <element name="Self-Treatment" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_SELF_TREATMENT">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_SELF_TREATMENT</requirements>
+        <description>
+            <p>When you reach 13th level you have become experienced enough to even perform surgery on yourself during desperate situations. While at 0 hit points during your turn, when you would have to make your death saving throw, through a flash of consciousness choose to patch up your injuries and stabilize yourself. Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet usage="1/Short Rest">
+            <description>While at 0 hit points during your turn, when you would make a death saving throw, you can instead stabilize yourself and patch up your injuries.</description>
+        </sheet>
+    </element>
+    <element name="Risky Stitches" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_RISKY_STITCHES">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_RISKY_STITCHES</requirements>
+        <description>
+            <p>Beginning with 14th level, you have learned that sometimes mediocrity is just not enough and only perfection is acceptable. When you use First Aid and make the Intelligence (Medicine) check after seeing the result, you may choose to "stitch deeper", after which you reroll the check and use the new roll instead. If the result of the Intelligence (Medicine) check is greater than the DC by 5 or more, you roll twice the number of First Aid Dice you chose when beginning the attempt. Otherwise you roll the First Aid Dice chosen and the aided creature takes half of the roll result as damage that cannot be prevented. Additionally this ability cannot be used for Total Body Shutdown.</p>
+        </description>
+        <sheet>
+            <description>When you use the First Aid Feature and use an Intelligence (medicine) check after seeing the result, you may choose to "Stitch Deeper", after which you reroll the check and use the new roll instead. If the result is greater than the DC by 5 or more, you double the dice you chose when beginning the attempt.</description>
+        </sheet>
+    </element>
+    <element name="Complete Understanding" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_COMPLETE_UNDERSTANDING">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_COMPLETE_UNDERSTANDING</requirements>
+        <description>
+            <p>At 17th, after all the surgeries and incisions you have done you have gained an eye for understanding all the intricacies of a creature from just a single "check up". When using Battle Inquiry, if you beat the opponents roll by 5 or more, you find out all of the information from the list and that creature becomes "Understood" instead. Additionally, whenever you hit it with an attack, you may additionally add double your Intelligence modifier to the damage roll.</p>
+        </description>
+        <sheet>
+            <description>When using your Battle Inquiry Feature, if you beat the opponents roll by 5 or more, you find out all information from the list and the target becomes "understood" instead. Whenever you hit it with an attack, you may additionally add double your intelligence modifier to teh damage roll.</description>
+        </sheet>
+    </element>
+    <element name="Expert Practitioner" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_EXPERT_PRACTITIONER">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_EXPERT_PRACTITIONER</requirements>
+        <description>
+            <p>When you reach 19th level, your skills have been deemed peerless by many after all the battles and people you have seen, leading to your medical skill set being near flawless. When you roll for First Aid and fail, you count as if having succeeded instead.</p>
+        </description>
+        <sheet>
+            <description>When you roll for First AId and fail, you count as if having succeeded instead.</description>
+        </sheet>
+    </element>
+    <element name="Trust me, I'm a Doctor" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_TRUSTME_IMADOCTOR">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_TRUSTME_IMADOCTOR</requirements>
+        <description>
+            <p>At 20th level you have gained complete understanding of the biological world, knowing all of its ins and outs, allowing you to treat even the deadliest of wounds with absolute ease. When rolling dice for healing, you always treat it as if rolling the maximum result.</p>
+        </description>
+        <sheet>
+            <description>When rolling dice for healing, you always treat it as if rolling the maximum result.</description>
+        </sheet>
+    </element>
+</elements>
