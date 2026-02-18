@@ -11,5 +11,6 @@
 		<file name="barbarian-surge.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/refs/heads/master/glyhpick/barbarian-surge.xml" />
 		<file name="barbarian-metallic.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/refs/heads/master/glyhpick/barbarian-metallic.xml" />
 		<file name="class-physician.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/refs/heads/master/glyhpick/class-physician.xml" />
+		<file name="physician-pharmacist.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/refs/heads/master/glyhpick/physician-pharmacist.xml" />
 	</files>
 </index>

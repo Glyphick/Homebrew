@@ -1,1 +1,85 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Pharmacist</name>
+        <author url="https://www.gmbinder.com/share/-N9NlG87xgs7cnp88ed-">Fun_kiddo</author>
+		<update version="1.0.0">
+			<file name="physician-pharmacist.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/refs/heads/master/glyhpick/physician-pharmacist.xml" />
+		</update>
+	</info>
+	
+	<!-- place your elements here -->
+	<element name="Pharmacist" type="Archetype" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_PHARMACIST">
+        <supports>Physician Study</supports>
+        <description>
+            <p class="indent">Those that study pharmacy very often work close with alchemy as well as a large part of nature, knowing what things can mix into various useful potions and elixirs. These physicians are highly looked out for, often serving as personal physicians to rich nobles as well as researchers of various new cures, or as simple doctors in small villages, saving all the lives they can.</p>
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_BASIC_ALCHEMY" />
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_PHARMACEUTICAL_ELIXIRS" />
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_VAPOROUS_TONICS" />
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_SPONTANEOUS_REAGAENT" />
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_MIXED_ELIXIRS" />
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_PERFECTED_ALCHEMY" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_BASIC_ALCHEMY" level="3" />
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_PHARMACEUTICAL_ELIXIRS" level="3" />
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_VAPOROUS_TONICS" level="7" />
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_SPONTANEOUS_REAGAENT" level="10" />
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_MIXED_ELIXIRS" level="15" />
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_PERFECTED_ALCHEMY" level="18" />
+        </rules>
+    </element>
+    <element name="Basic Alchemy" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_BASIC_ALCHEMY">
+        <description>
+            <p>At 3rd level, you have simple understanding of using various herbs and liquids in medicine. You gain proficiency with Alchemist's supplies. Additionally when crafting potions, you half the cost and time required to make them.</p>
+        </description>
+        <sheet display="true">
+            <description>When crafting potions, it takes half the time and cost to make them.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_ALCHEMISTS_SUPPLIES" />
+        </rules>
+    </element>
+    <element name="Pharmaceutical Elixirs" type="Archetype feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_PHARMACEUTICAL_ELIXIRS">
+        <description>
+            <p>Beginning with 3rd, level your studies have allowed you to learn and make various elixirs from be it herbs or other magical components. As a part of taking a long rest, you may make a number of elixirs equal to up to your Intelligence modifier (up to a minimum of one). Elixirs are potions from any official D&D books, except their duration is 1 minute if it would be longer otherwise. At 3rd level you can make potions of up to common rarity, uncommon at 10th level and rare at 18th level. You can see all the current possible potions at the end of the class.</p>
+            <p>Once you take a long rest, any old elixirs become inert.</p>
+        </description>
+        <sheet>
+            <description>As part of a long rest, you may make a number of elixirs equal to your intelligence modifier (min. 1). At 3rd level you can make potions of up to common rarity, uncommon at 10th, and rare at 18th. once you take a long rest, old elixirs become inert.</description>
+        </sheet>
+    </element>
+    <element name="Vaporous Tonics" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_VAPOROUS_TONICS">
+        <description>
+            <p>When you reach 7th level, you gain the ability to inject your elixirs or potion on you with a substance that immediately turns it into vapor for inhalation. As an action you may you may turn an elixir or a potion you have, into a gas projectile and throw it near a creature within 20 feet of you, after which that creature gains the benefits of the potion.</p>
+        </description>
+        <sheet action="Action">
+            <description>You may turn an elixir or potion into a gas projectile and throw it near a creature within 20 ft of you, after which the character gains the benefits of the potion.</description>
+        </sheet>
+    </element>
+    <element name="Spontaneous Reagent" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_SPONTANEOUS_REAGAENT">
+        <description>
+            <p>At 10th level, you have done your research and have concocted a reagent that can turn into many different things when mixed with various other reactants, in a matter of seconds. As an action you turn an elixir you still have and turn it into a different one as if you were preparing it during the long rest, except it becomes inert at the end of your next turn. Additionally as part of the same action, you may immediately either throw it or drink it. Once you use this feature, you can't use it until you finish a long rest.</p>
+        </description>
+        <sheet action="Action" usage="1/Long Rest">
+            <description>You can turn an elixir you still have into a different one as if you were preparing it during a long rest, but becomes inert at the end of your turn. additionally, you may either throw or drink this potion immediately.</description>
+        </sheet>
+    </element>
+    <element name="Mixed Elixirs" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_MIXED_ELIXIRS">
+        <description>
+            <p>When you reach 15th level, you have invented your own unique methods of alchemy allowing you to mix elixirs that would not normally work together, into a singular one. When making elixirs during a long rest, you may choose to create Mixed Elixirs. Mixed Elixirs take up two uses of your Pharmaceutical Elixirs, but in return you may choose two different potions of your choice that are available to you and combine them into a singular elixir. When a creature consumes that elixir, it gains benefits from both mixed potions. You can't create a Mixed Elixir using the Spontaneous Reagent feature.</p>
+        </description>
+        <sheet>
+            <description>When using your Pharmaceutical Elixirs Feature during a long rest, you can mix two elixirs that normally do not go together and are available to you into a singular one, taking up two uses of your of your uses of Pharmaceutical Elixirs. when a creature consumes this elixir, it gains benefits from both mixed potions. This feature cannot work with Spontaneous Reagent Feature.</description>
+        </sheet>
+    </element>
+    <element name="Perfected Alchemy" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_PERFECTED_ALCHEMY">
+        <description>
+            <p>At 18th level, your comprehension of alchemy and pharmaceuticals has reached its peak allowing you to make concoctions of quality rarely ever seen. During a 24 hour period you may begin making a potion. After the 24h roll a Intelligence (Medicine) check at DC 30. If you succeed, you may choose a potion of very rare rarity or lower, but if you succeed on the DC by 5 or more, you may instead make a Legendary potion of your choice. On a failure, you create a potion of rare or lower rarity instead. These potions act as regular potions and do not become inert. Once you use this feature, you can't use this feature again for the next seven days.</p>
+        <description>
+        <sheet>
+            <description>During a 24 hour period you may begin making a potion. After the 24th hour, make a DC 30 Medicine check. if you succeed, you make a potion of very rare rarity or lower of your choice. If you succeed by 5 or more, you may make a legendary potion if your choice. on a fail, you make a potion of rare rarity or lower instead. These potions cannot become inert. You cannot use this feature for the next seven days.</description>
+        </sheet>
+    </element>
+</elements>
