@@ -34,7 +34,7 @@
         <description>
             <p>At 3rd level, you have simple understanding of using various herbs and liquids in medicine. You gain proficiency with Alchemist's supplies. Additionally when crafting potions, you half the cost and time required to make them.</p>
         </description>
-        <sheet display="true">
+        <sheet>
             <description>When crafting potions, it takes half the time and cost to make them.</description>
         </sheet>
         <rules>
@@ -46,8 +46,8 @@
             <p>Beginning with 3rd, level your studies have allowed you to learn and make various elixirs from be it herbs or other magical components. As a part of taking a long rest, you may make a number of elixirs equal to up to your Intelligence modifier (up to a minimum of one). Elixirs are potions from any official DnD books, except their duration is 1 minute if it would be longer otherwise. At 3rd level you can make potions of up to common rarity, uncommon at 10th level and rare at 18th level. You can see all the current possible potions at the end of the class.</p>
             <p>Once you take a long rest, any old elixirs become inert.</p>
         </description>
-        <sheet display="true">
-            <description>As part of a long rest, you may make a number of elixirs equal to your intelligence modifier (min. 1). At 3rd level you can make potions of up to common rarity, uncommon at 10th, and rare at 18th. once you take a long rest, old elixirs become inert.</description>
+        <sheet>
+            <description>As part of a long rest, you may make a number of elixirs equal to your intelligence modifier with a minimum of 1 potion. At 3rd level you can make potions of up to common rarity, uncommon at 10th, and rare at 18th. once you take a long rest, old elixirs become inert.</description>
         </sheet>
     </element>
     <element name="Vaporous Tonics" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_VAPOROUS_TONICS">
