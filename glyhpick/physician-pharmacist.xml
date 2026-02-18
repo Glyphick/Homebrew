@@ -77,7 +77,7 @@
     <element name="Perfected Alchemy" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_PERFECTED_ALCHEMY">
         <description>
             <p>At 18th level, your comprehension of alchemy and pharmaceuticals has reached its peak allowing you to make concoctions of quality rarely ever seen. During a 24 hour period you may begin making a potion. After the 24h roll a Intelligence (Medicine) check at DC 30. If you succeed, you may choose a potion of very rare rarity or lower, but if you succeed on the DC by 5 or more, you may instead make a Legendary potion of your choice. On a failure, you create a potion of rare or lower rarity instead. These potions act as regular potions and do not become inert. Once you use this feature, you can't use this feature again for the next seven days.</p>
-        <description>
+        </description>
         <sheet>
             <description>During a 24 hour period you may begin making a potion. After the 24th hour, make a DC 30 Medicine check. if you succeed, you make a potion of very rare rarity or lower of your choice. If you succeed by 5 or more, you may make a legendary potion if your choice. on a fail, you make a potion of rare rarity or lower instead. These potions cannot become inert. You cannot use this feature for the next seven days.</description>
         </sheet>
