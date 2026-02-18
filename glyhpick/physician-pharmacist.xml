@@ -38,7 +38,7 @@
             <description>When crafting potions, it takes half the time and cost to make them.</description>
         </sheet>
         <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_ALCHEMISTS_SUPPLIES" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES" />
         </rules>
     </element>
     <element name="Pharmaceutical Elixirs" type="Archetype feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_PHARMACEUTICAL_ELIXIRS">
