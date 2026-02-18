@@ -113,7 +113,7 @@
             <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_GLY_GH_MULTICLASS_PHYSICIAN" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_GLY_GH_MULTICLASS_PHYSICIAN" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" requirements="!ID_GLY_GH_MULTICLASS_PHYSICIAN" />
-            <select type="Proficiency" name="Skill Proficiency (Physician)" supports="Skill,Physician" number="3" />
+            <select type="Proficiency" name="Skill Proficiency (Physician)" supports="Skill,Physician" number="3" requirements="!ID_GLY_GH_MULTICLASS_PHYSICIAN" />
             <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_STUDENT_OF_MEDICINE" level="1" />
             <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_STABILIZING_TOUCH" level="1" />
             <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_UNARMORED_DEFENSE" level="1" />
@@ -152,7 +152,7 @@
     <element name="Student of Medicine" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_STUDENT_OF_MEDICINE">
         <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_STUDENT_OF_MEDICINE</requirements>
         <description>
-            <p>At 1st level, you have gathered enough knowledge to know intricacies of a body quite well. You can now use your Intelligence instead of Wisdom modifier when making Medicine checks.</p>
+            <p>At 1st level, you have gathered enough knowledge to know the intricacies of a body quite well. You can now use your Intelligence instead of Wisdom modifier when making Medicine checks.</p>
             <p class="indent"> In addition, your proficiency bonus with those checks is doubled.</p>
         </description>
         <sheet>
@@ -167,11 +167,11 @@
     <element name="Unarmored Defense" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_UNARMORED_DEFENSE">
         <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_UNARMORED_DEFENSE</requirements>
         <description>
-            <p>Beginning with 1st level, you have understanding of creatures physiology, allowing you to predict their movements and attacks.</p>
+            <p>Beginning with 1st level, you have an understanding of creatures' physiology, allowing you to predict their movements and attacks.</p>
             <p class="indent">While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Intelligence modifier. You can still use a shield and gain this benefit.</p>
         </description>
         <sheet>
-            <description>While you aren't wearing armor, your AC equals {{ac:unarmored-defense-physician}}. You can use a sheild and still gain this benefit.</description>
+            <description>While you aren't wearing armor, your AC equals {{ac:unarmored-defense-physician}}. You can use a shield and still gain this benefit.</description>
         </sheet>
         <rules>
             <stat name="ac:unarmored-defense-physician:base" value="10" />
@@ -380,4 +380,5 @@
         </sheet>
     </element>
 </elements>
+
 
