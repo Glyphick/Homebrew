@@ -113,7 +113,7 @@
             <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_GLY_GH_MULTICLASS_PHYSICIAN" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_GLY_GH_MULTICLASS_PHYSICIAN" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" requirements="!ID_GLY_GH_MULTICLASS_PHYSICIAN" />
-            <select type="Proficiency" name="Skill Proficiency (Physician)" supports="Skill,Physician" number="3" requirements="!ID_GLY_GH_MULTICLASS_PHYSICIAN" />
+            <select type="Proficiency" name="Skill Proficiency (Physician)" supports="ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_SLIGHT_OF_HAND|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_NATURE" number="3" requirements="!ID_GLY_GH_MULTICLASS_PHYSICIAN" />
             <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_STUDENT_OF_MEDICINE" level="1" />
             <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_STABILIZING_TOUCH" level="1" />
             <grant type="Class Feature" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_UNARMORED_DEFENSE" level="1" />
@@ -380,5 +380,6 @@
         </sheet>
     </element>
 </elements>
+
 
 
