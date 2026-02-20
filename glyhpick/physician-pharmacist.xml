@@ -24,7 +24,7 @@
             <table>
                 <thread>
                     <tr><td class="col-5">Common</td><td class="col-10">Uncommon</td><td class="col-15">Rare</td><td class="col-20">Very Rare</td><td class="col-25 left">Legendary</td></tr>
-                <thread>
+                </thread>
                 <tr><td>Climbing</td><td>Bottled Breath</td><td>Elixir of Health</td><td>Oil of Sharpness</td><td class="left">Storm Giant Strength</td></tr>
                 <tr><td>Comprehension</td><td>Slipperiness</td><td>Etherealness</td><td>Cloud Giant Strength</td><td class="left">Giant Size</td></tr>
                 <tr><td>Healing</td><td>Philter of Love</td><td>Aqueous Form</td><td>Flying</td><td class="left">Dragon's Majesty</td></tr>
