@@ -53,7 +53,7 @@
         <description>
             <p>Beginning with 7th level, you can read a status of a creature like a book and you can break open its weaknesses even where there were none. After analyzing a creature you may choose a resistance of your choice and disable it until the end of your next turn. You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any expended uses when you finish a short or long rest.</p>
         </description>
-        <sheet usage="{{intelligence:modifier:min:1}}/Short Rest">
+        <sheet usage="{{intelligence:modifier}}/Short Rest">
             <description>After Analyzing a creature you may choose a resistance of your choice and disable it until the end of your next turn.</description>
         </sheet>
     </element>
@@ -62,7 +62,7 @@
             <p>At 10th level, you have taught your allies on how to gain insight into the enemies you have studied to assist them in battle. Whenever an ally deals damage to an Analyzed creature, they may once per round deal additional damage equal to your intelligence modifier (minimum of one).</p>
         </description>
         <sheet>
-            <description>Whenever an ally damages an Analyzed Creature, they may deal an additional {{intelligence:modifier:min:1}} extra damage once per round.</description>
+            <description>Whenever an ally damages an Analyzed Creature, they may deal an additional {{intelligence:modifier}} extra damage once per round.</description>
         </sheet>
     </element>
     <element name="Incision Strike" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_ANALYST_INCISION_STRIKE">
