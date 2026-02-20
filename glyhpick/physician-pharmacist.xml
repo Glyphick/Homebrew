@@ -21,7 +21,7 @@
             <div element="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_PERFECTED_ALCHEMY" />
             <h4>ELIXIR LIST</h4>
             <p>The following is a list of Elixirs you can make, seperated into rarity.</p>
-            <table>
+            <table class="class-features">
                 <thread>
                     <tr><td class="col-5">Common</td><td class="col-10">Uncommon</td><td class="col-15">Rare</td><td class="col-20">Very Rare</td><td class="col-25 left">Legendary</td></tr>
                 </thread>
@@ -34,13 +34,13 @@
                 <tr><td></td><td>Cold Resistance</td><td>Frost Giant Strength</td><td>Possibility</td><td class="left"></td></tr>
                 <tr><td></td><td>Fire Breath</td><td>Haseous Form</td><td>Speed</td><td class="left"></td></tr>
                 <tr><td></td><td>Fire Resistance</td><td>Heroism</td><td>Supreme Healing</td><td class="left"></td></tr>
-                <tr><td></td><td>Force Resistance</td><td>Invulnerability</td><td>Vitality</td><td class="left"></td></tr>
-                <tr><td></td><td>Greater Healing</td><td>Maximum Power</td><td></td><td class="left"></td></tr>
+                <tr><td></td><td>Force Resistance</td><td>Superiour Healing</td><td>Vitality</td><td class="left"></td></tr>
+                <tr><td></td><td>Greater Healing</td><td>Maximum Power</td><td>Invulnerability</td><td class="left"></td></tr>
                 <tr><td></td><td>Growth</td><td>Mind control (beast)</td><td></td><td class="left"></td></tr>
                 <tr><td></td><td>Hill Giant Strength</td><td>Mind control (humanoid)</td><td></td><td class="left"></td></tr>
                 <tr><td></td><td>Lightning Resistance</td><td>Mind Reading</td><td></td><td class="left"></td></tr>
                 <tr><td></td><td>Necrotic Resistance</td><td>Stone Giant Strength</td><td></td><td class="left"></td></tr>
-                <tr><td></td><td>Poison</td><td>Superior Healing</td><td></td><td class="left"></td></tr>
+                <tr><td></td><td>Poison</td><td></td><td></td><td class="left"></td></tr>
                 <tr><td></td><td>Poison Resistance</td><td></td><td></td><td class="left"></td></tr>
                 <tr><td></td><td>Psychic Resistance</td><td></td><td></td><td class="left"></td></tr>
                 <tr><td></td><td>Radiant Resistance</td><td></td><td></td><td class="left"></td></tr>
@@ -107,7 +107,7 @@
             <p>At 18th level, your comprehension of alchemy and pharmaceuticals has reached its peak allowing you to make concoctions of quality rarely ever seen. During a 24 hour period you may begin making a potion. After the 24h roll a Intelligence (Medicine) check at DC 30. If you succeed, you may choose a potion of very rare rarity or lower, but if you succeed on the DC by 5 or more, you may instead make a Legendary potion of your choice. On a failure, you create a potion of rare or lower rarity instead. These potions act as regular potions and do not become inert. Once you use this feature, you can't use this feature again for the next seven days.</p>
         </description>
         <sheet>
-            <description>During a 24 hour period you may begin making a potion. After the 24th hour, make a DC 30 Medicine check. if you succeed, you make a potion of very rare rarity or lower of your choice. If you succeed by 5 or more, you may make a legendary potion if your choice. on a fail, you make a potion of rare rarity or lower instead. These potions cannot become inert. You cannot use this feature for the next seven days.</description>
+            <description>During a 24 hour period you may begin making a potion. After the 24th hour, make a DC 30 Medicine check. if you succeed, you make a potion of very rare rarity or lower of your choice. If you succeed by 5 or more, you may make a legendary potion if your choice. on a fail, you make a potion of rare rarity or lower instead. These potions cannot become inert. You cannot use this feature for the next seven days. You can only make 1 Legendary and one Very Rare Elixir.</description>
         </sheet>
     </element>
 </elements>
