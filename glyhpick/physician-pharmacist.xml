@@ -12,13 +12,41 @@
 	<element name="Pharmacist" type="Archetype" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_PHARMACIST">
         <supports>Physician Study</supports>
         <description>
-            <p class="indent">Those that study pharmacy very often work close with alchemy as well as a large part of nature, knowing what things can mix into various useful potions and elixirs. These physicians are highly looked out for, often serving as personal physicians to rich nobles as well as researchers of various new cures, or as simple doctors in small villages, saving all the lives they can.</p>
+            <p>Those that study pharmacy very often work close with alchemy as well as a large part of nature, knowing what things can mix into various useful potions and elixirs. These physicians are highly looked out for, often serving as personal physicians to rich nobles as well as researchers of various new cures, or as simple doctors in small villages, saving all the lives they can.</p>
             <div element="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_BASIC_ALCHEMY" />
             <div element="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_PHARMACEUTICAL_ELIXIRS" />
             <div element="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_VAPOROUS_TONICS" />
             <div element="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_SPONTANEOUS_REAGAENT" />
             <div element="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_MIXED_ELIXIRS" />
             <div element="ID_GLY_GH_ARCHETYPE_FEATURE_PHARMACIST_PERFECTED_ALCHEMY" />
+            <h4>ELIXIR LIST</h4>
+            <p>The following is a list of Elixirs you can make, seperated into rarity.</p>
+            <table>
+                <thread>
+                    <tr><td class="col-5">Common</td><td class="col-10">Uncommon</td><td class="col-15">Rare</td><td class="col-20">Very Rare</td><td class="col-25 left">Legendary</td></tr>
+                <thread>
+                <tr><td>Climbing</td><td>Bottled Breath</td><td>Elixir of Health</td><td>Oil of Sharpness</td><td class="left">Storm Giant Strength</td></tr>
+                <tr><td>Comprehension</td><td>Slipperiness</td><td>Etherealness</td><td>Cloud Giant Strength</td><td class="left">Giant Size</td></tr>
+                <tr><td>Healing</td><td>Philter of Love</td><td>Aqueous Form</td><td>Flying</td><td class="left">Dragon's Majesty</td></tr>
+                <tr><td>Watchful Rest</td><td>Acid Resistance</td><td>Clairvoyance</td><td>Invisibility</td><td class="left"></td></tr>
+                <tr><td></td><td>Advantage</td><td>Diminution</td><td>Longevity</td><td class="left"></td></tr>
+                <tr><td></td><td>Animal Friendship</td><td>Fire Giant Strength</td><td>Mind Control (Monster)</td><td class="left"></td></tr>
+                <tr><td></td><td>Cold Resistance</td><td>Frost Giant Strength</td><td>Possibility</td><td class="left"></td></tr>
+                <tr><td></td><td>Fire Breath</td><td>Haseous Form</td><td>Speed</td><td class="left"></td></tr>
+                <tr><td></td><td>Fire Resistance</td><td>Heroism</td><td>Supreme Healing</td><td class="left"></td></tr>
+                <tr><td></td><td>Force Resistance</td><td>Invulnerability</td><td>Vitality</td><td class="left"></td></tr>
+                <tr><td></td><td>Greater Healing</td><td>Maximum Power</td><td></td><td class="left"></td></tr>
+                <tr><td></td><td>Growth</td><td>Mind control (beast)</td><td></td><td class="left"></td></tr>
+                <tr><td></td><td>Hill Giant Strength</td><td>Mind control (humanoid)</td><td></td><td class="left"></td></tr>
+                <tr><td></td><td>Lightning Resistance</td><td>Mind Reading</td><td></td><td class="left"></td></tr>
+                <tr><td></td><td>Necrotic Resistance</td><td>Stone Giant Strength</td><td></td><td class="left"></td></tr>
+                <tr><td></td><td>Poison</td><td>Superior Healing</td><td></td><td class="left"></td></tr>
+                <tr><td></td><td>Poison Resistance</td><td></td><td></td><td class="left"></td></tr>
+                <tr><td></td><td>Psychic Resistance</td><td></td><td></td><td class="left"></td></tr>
+                <tr><td></td><td>Radiant Resistance</td><td></td><td></td><td class="left"></td></tr>
+                <tr><td></td><td>Thunder Resistance</td><td></td><td></td><td class="left"></td></tr>
+                <tr><td></td><td>Water Breathing</td><td></td><td></td><td class="left"></td></tr>
+            </table>
         </description>
         <sheet display="false" />
         <rules>
