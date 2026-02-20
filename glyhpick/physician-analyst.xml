@@ -28,7 +28,7 @@
             <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_ANALYST_THREE_STEPS_AHEAD" level="18" />
         </rules>
     </element>
-    <element name="First Response" type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_ANALYST_FIRST_RESPONSE">
+    <element name="First Response" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_ANALYST_FIRST_RESPONSE">
         <description>
             <p>When you reach 3rd level, your study of combat and your situational awareness has allowed you to respond immediately, to your allies being harmed. When an allied creature is reduced to 0 hit points within your view, you may as a reaction move up to your movement speed, to that creature.</p>
         </description>
@@ -36,7 +36,7 @@
             <description>When an allied creature is reduced to 0 hit points within your line of sight, you can may move up to your movement speed maximum toward that creature as a reaction.</description>
         </sheet>
     </element>
-    <element name="Open the Wound" type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_ANALYST_OPEN_THE_WOUND">
+    <element name="Open the Wound" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_ANALYST_OPEN_THE_WOUND">
         <description>
             <p>At 3rd level, you have learned methods to create openings in your enemies after finding out more about them. When you analyze a creature with battle inquiry, the creature becomes exposed and the next attack made against it gains advantage and on a hit deals 1d8 extra damage. This damage increases to 2d8 at 7th level and 3d8 at 15th level.</p>
         </description>
@@ -49,7 +49,7 @@
             <stat name="wound:dice" value="1" level="15" />
         </rules>
     </element>
-    <element name="Expose Weakness" type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_ANALYST_EXPOSE_WEAKNESS">
+    <element name="Expose Weakness" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_ANALYST_EXPOSE_WEAKNESS">
         <description>
             <p>Beginning with 7th level, you can read a status of a creature like a book and you can break open its weaknesses even where there were none. After analyzing a creature you may choose a resistance of your choice and disable it until the end of your next turn. You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any expended uses when you finish a short or long rest.</p>
         </description>
@@ -57,7 +57,7 @@
             <description>After Analyzing a creature you may choose a resistance of your choice and disable it until the end of your next turn.</description>
         </sheet>
     </element>
-    <element name="Shared Understanding" type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_ANALYST_SHARED_UNDERSTANDING">
+    <element name="Shared Understanding" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_ANALYST_SHARED_UNDERSTANDING">
         <description>
             <p>At 10th level, you have taught your allies on how to gain insight into the enemies you have studied to assist them in battle. Whenever an ally deals damage to an Analyzed creature, they may once per round deal additional damage equal to your intelligence modifier (minimum of one).</p>
         </description>
@@ -65,7 +65,7 @@
             <description>Whenever an ally damages an Analyzed Creature, they may deal an additional {{intelligence:modifier:min:1}} extra damage once per round.</description>
         </sheet>
     </element>
-    <element name="Incision Strike" type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_ANALYST_INCISION_STRIKE">
+    <element name="Incision Strike" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_ANALYST_INCISION_STRIKE">
         <description>
             <p>When you reach 15th level, your understanding of a creatures physiology has grown to near perfection, allowing to meddle with it as you wish. When successfully using Total Body Shut-down, you may choose an affliction from the following list:</p>
             <ul>
@@ -91,7 +91,7 @@
             </description>
         </sheet>
     </element>
-    <element name="Three Steps ahead" type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_ANALYST_THREE_STEPS_AHEAD">
+    <element name="Three Steps ahead" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_ANALYST_THREE_STEPS_AHEAD">
         <description>
             <p>At 18th level, once you analyze a creature and gain full understanding of it, it no longer surprises you, allowing you to evade it with ease. Understood creatures gain disadvantage on attack rolls against you and you gain advantage on all saving throws caused by them.</p>
         </description>
