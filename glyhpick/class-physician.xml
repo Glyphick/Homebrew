@@ -271,16 +271,20 @@
         <description>
             <p>When you reach 5th level, you know that the people you take care of tend to constantly get in trouble, so when you patch them up you can now take precautions. When using First Aid, any healing that would exceed the creature’s Hit Point maximum is converted into Temporary Hit Points, which last for 1 minute. You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
         </description>
-        <sheet usage="{{intelligence:modifier}}/Long Rest">
+        <sheet usage="{{physicianintel:usage}}/Long Rest">
             <description>When you use the First Aid feature and exceed a creature's maximum hitpoints, you can convert the extra healing into temporary hitpoints that last for a minute.</description>
         </sheet>
+        <rules>
+            <stat name="physicianintel:usage" value="1" bonus="base" />
+            <stat name="physicianintel:usage" value="{{intelligence:modifier}}" bonus="base" />
+        </rules>
     </element>
     <element name="You're Doing it wrong!" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_YOURE_DOING_IT_WRONG">
         <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_YOURE_DOING_IT_WRONG</requirements>
         <description>
             <p>At 5th level, when you see a creature roll dice for healing by a spell or an ability, as a reaction you may allow the target to reroll any of the dice and use the new result instead. You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
         </description>
-        <sheet action="Reaction" usage="{{intelligence:modifier}}/Long Rest">
+        <sheet action="Reaction" usage="{{physicianintel:usage}}/Long Rest">
             <description>whenever you see a creature roll dice for healing by a spell or an ability, you can allow the target to reroll any of the dice and use the new result instead.</description>
         </sheet>
     </element>
@@ -333,7 +337,7 @@
             <p>Additionally you may attempt to end a magical debilitating effect affecting a creature withing 5 feet of you. Make an ability check using your Intelligence Modifier. The DC equals 10 + the spell’s level. On a successful check, the spell ends.</p>
             <p>You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
         </description>
-        <sheet usage="max(1,{{intelligence:modifier}})/Long Rest">
+        <sheet usage="{{physicianintel:usage}}/Long Rest">
             <description>As an Action you may end one of the following conditions: Poisoned, Petrified, Paralyzed, Stunned, Blindness, Deafness, A Poison of your choice, A disease of your choice, and Maximum hit Points reduction. Ontop of this, you can choose to end a magical effect affecting a creature within 5 ft of you, by rolling an ability check using your intelligence, with a DC of 10 + the spell's level. on a success, the spell ends.</description>
         </sheet>
     </element>
