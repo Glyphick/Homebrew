@@ -276,7 +276,7 @@
         </sheet>
         <rules>
             <stat name="physicianintel:usage" value="1" bonus="base" />
-            <stat name="physicianintel:usage" value="{{intelligence:modifier}}" bonus="base" />
+            <stat name="physicianintel:usage" value="intelligence:modifier" bonus="base" />
         </rules>
     </element>
     <element name="You're Doing it wrong!" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_YOURE_DOING_IT_WRONG">
