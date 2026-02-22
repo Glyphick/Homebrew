@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>War Surgeon</name>
+        <author url="https://www.gmbinder.com/share/-N9NlG87xgs7cnp88ed-">Fun_kiddo</author>
+		<update version="1.0.0">
+			<file name="physician-warsurgeon.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/refs/heads/master/glyhpick/physician-warsurgeon.xml" />
+		</update>
+	</info>
+    <element name="War Surgeon" type="Archetype" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_WARSURGEON">
+        <supports>Physician Study</supports>
+        <description>
+            <p>Battle is the lifeblood of the world, determining a great amount of who live and who die. Because of that some physicians have noticed the pattern and have concluded that where there is death, is a place where they are needed the most. With that they sharpen their syringes and their swords as they ready themselves to travel through blood and mud to not only save lives, but to take them from those who would aim to deal harm.</p>
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_WARSURGEON_PUSH_THE_ADVANTAGE" />
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_WARSURGEON_BATTLE_READY" />
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_WARSURGEON_DEADLY_PRECISION" />
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_WARSURGEON_QUICK_FIX" />
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_WARSURGEON_ADRENALINE_SHOT" />
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_WARSURGEON_VITAL_STRIKE" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_WARSURGEON_PUSH_THE_ADVANTAGE" level="3" />
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_WARSURGEON_BATTLE_READY" level="3" />
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_WARSURGEON_DEADLY_PRECISION" level="7" />
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_WARSURGEON_QUICK_FIX" level="10" />
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_WARSURGEON_ADRENALINE_SHOT" level="15" />
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_WARSURGEON_VITAL_STRIKE" level="18" />
+        </rules>
+    </element>
+    <element name="Push the Advantage" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_WARSURGEON_PUSH_THE_ADVANTAGE">
+        <description>
+            <p>Beginning with 3rd level, you have grown a taste for battle and the opportunities it provides. When you or an ally reduces a creature to 0 hit points within 30 feet of you, you may as a reaction move up to half your movement without provoking attacks of opportunity.</p>
+        </description>
+        <sheet>
+            <description>When you or an ally reduce a creature to 0 hitpoints within 30ft, you may move up to half your movement speed without prevoking opportunity attacks.</description>
+        </sheet>
+    </element>
+    <element name="Battle Ready" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_WARSURGEON_BATTLE_READY">
+        <description>
+            <p>At 3rd level, your battle experience has taught you to be prepared to fight even as a doctor. When you start your turn within 5 feet of a hostile creature, you gain temporary hit points equal to half your level (rounded down), until start of your next turn.</p>
+        </description>
+        <sheet>
+            <description>When you start your turn within 5ft of a hostile creature, you gain temporary hitpoints equal to half your level (rounded down).</description>
+        </sheet>
+    </element>
+    <element name="Deady Percision" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_WARSURGEON_DEADLY_PRECISION">
+        <description>
+            <p>When you reach 7th level, your eye for detail when it comes to seeking your opponents weakness has grown as precise as a scalpel, with you ready to operate at any time. The additional damage when attacking Analyzed creatures is no longer equal to your Intelligence modifier, but your physician level instead.</p>
+        </description>
+        <sheet>
+            <description>Additional damage dealt when attacking analyzed creatures is now {{level:physician}} instead of {{intelligence:modifier}}.</description>
+        </sheet>
+    </element>
+    <element name="Quick Fix" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_WARSURGEON_QUICK_FIX">
+        <description>
+            <p>Beginning with 10th level, the pace of battle has rarely left you enough time for a proper medical procedure, forcing you to learn to improvise. You may use First Aid as a bonus action, but when you do so the healing is halved. Once you use this feature, you can't use it again, until you finish a short or long rest. Additionally you regain the use of this feature if you reduce a creature to 0 hit points.</p>
+        </description>
+        <sheet usage="1/Short Rest" action="Bonus Action">
+            <description>You may use First Aid as a bonus action, but the healing is halved.</description>
+        </sheet>
+    </element>
+    <element name="Adrenaline Shot" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_WARSURGEON_ADRENALINE_SHOT">
+        <description>
+            <p>At 15th level, you have concocted an injection, that increases the speed and strength of the subject, as well as numbing its pain. As an action you may administer an injection to a willing creature within 5 feet of you. The injected creature for the next 3 rounds gain the effects of the Haste spell and in addition, having 0 hit points doesn't knock it unconscious. It still must make death saving throws, and it suffers the normal effects of taking damage while at 0 hit points. However, if it would die due to failing death saving throws, it doesn't die until the Adrenaline Shot ends. Lastly, if the creature affected by the Adrenaline shot reduces a hostile creature to 0 hit points it regains 1 hit points and clears all of its death saves unless it failed 3 of them already in which case it still dies at the end of the effect. Once you use this feature, you can't use it until you finish a long rest.</p>
+        </description>
+        <sheet usage="1/Long Rest" action="Action">
+            <description>you may andminister an injection to a willing creature within 5ft. The injected creature for the next 3 rounds gain the effects of the haste spell and in addition, having 0 hitpoints doesn't knock it unconscious. The creature still makes death saving throws, and it suffers the normal effects of damage at 0 hit points. If the creature would normally day due to failing death saving throws, the creature doesn't die until the Adrenaline Shot ends. If the creature reduces a hostile creature to 0 hitpoints, it regains 1 hit point and clears all death saves unless it failed 3 of them already, in which case still dies at the end of the effect.</description>
+        </sheet>
+    </element>
+    <element name="Vital Strike" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_WARSURGEON_VITAL_STRIKE">
+        <description>
+            <p>When you reach 18th level, you have understood that the true medicinal calling is not that of healing the harm, but the prevention of it in the first place, through precise and lethal cuts. You gain an additional use of Total Body Shutdown and when you use it, as long as the targeted creature is not a construct or an ooze, if you get a success on the medicine check, it counts as a critical success instead. You regain both uses of Total Body Shutdown after you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description>You gain an additional use of your Total Body Shutdown Feature. If the creature is not a construct or an ooze when using Total body shutdown, if you succeed on the medicine check, it counts as a critical success instead.</description>
+        </sheet>
+        <rules>
+            <stat name="totalbody:usage" value="1" />
+        </rules>
+    </element>
+</elements>

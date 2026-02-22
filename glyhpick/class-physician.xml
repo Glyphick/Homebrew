@@ -145,18 +145,18 @@
                 <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
                 <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
                 <select type="Proficiency" name="Skill Proficiency (Physician)" supports="Skill,Physician" number="1" />
-				<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" />
 			</rules>
 		</multiclass>
     </element>
     <element name="Student of Medicine" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_STUDENT_OF_MEDICINE">
         <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_STUDENT_OF_MEDICINE</requirements>
         <description>
-            <p>At 1st level, you have gathered enough knowledge to know the intricacies of a body quite well. You can now use your Intelligence instead of Wisdom modifier when making Medicine checks.</p>
+            <p>At 1st level, you have gathered enough knowledge to know intricacies of a body quite well. You can now use your Intelligence instead of Wisdom modifier when making Medicine checks.</p>
             <p class="indent"> In addition, your proficiency bonus with those checks is doubled.</p>
         </description>
         <sheet>
-            <description>You gain Expertise in medicine checks. You can use Intelligence instead of Wisdom when making Medicine checks.</description>
+            <description>You gain Expertise in medicine checks. You use Intelligence instead of Wisdom when making Medicine checks.</description>
         </sheet>
         <rules>
             <stat name="medicine:misc" value="-wisdom:modifier" />
@@ -167,11 +167,11 @@
     <element name="Unarmored Defense" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_UNARMORED_DEFENSE">
         <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_UNARMORED_DEFENSE</requirements>
         <description>
-            <p>Beginning with 1st level, you have an understanding of creatures' physiology, allowing you to predict their movements and attacks.</p>
+            <p>Beginning with 1st level, you have understanding of creatures physiology, allowing you to predict their movements and attacks.</p>
             <p class="indent">While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Intelligence modifier. You can still use a shield and gain this benefit.</p>
         </description>
         <sheet>
-            <description>While you aren't wearing armor, your AC equals {{ac:unarmored-defense-physician}}. You can use a shield and still gain this benefit.</description>
+            <description>While you aren't wearing armor, your AC equals {{ac:unarmored-defense-physician}}. You can use a sheild and still gain this benefit.</description>
         </sheet>
         <rules>
             <stat name="ac:unarmored-defense-physician:base" value="10" />
@@ -191,7 +191,7 @@
             <p>At 1st level, you have enough experience to perform simple and quick treatments when needed. As an action you can give first aid to a creature within 5ft of you. When you do so, choose a number of First Aid Dice available to you according to the The Physician class table, then make an Intelligence (Medicine) check. These dice are not expended. The DC for the Intelligence (Medicine) check is 10, plus 2 for each First Aid Die you chose when beginning the attempt. On a success, roll the First Aid Dice and the target creature heals that many hit points plus your Physician level. On a failure, they regain half the number of hit points. If the result of the Intelligence (Medicine) check is greater than the DC by 5 or more, you roll twice the number of First Aid Dice you chose when beginning the attempt. A creature can only be healed by First Aid number of times equal to your proficiency modifier, before requiring to take a short rest to be healed this way again.</p>
         </description>
         <sheet action="Action">
-            <description>You have {{firstaid:dice}} First Aid Dice. These dice are d8s. As an action, you can give first aid to a creature within 5ft of you. Choose a number of First Aid Dice, then make a intelligence medicine check. These dice are not expended. the DC for the check is 10 plus 2 for each FirstAid Die you choose when you begin the attempt. On a scuccess, Roll the First Aid Dice and the target heals that many hitpoints + your physician level. If the result of the check is greater than 5 or more, you then roll twice the number of First aid Dice you chose when beginning the attempt. A creature can be healed up to {{proficiency}} times.</description>
+            <description>You have {{firstaid:dice}} First Aid Dice. These dice are d8s. As an action, you can give first aid to a creature within 5ft of you. Choose a number of First Aid Dice, then make a intelligence medicine check. These dice are not expended. the DC for the check is 10 plus 2 for each FirstAid Die you choose when you begin the attempt. On a scuccess, Roll the First Aid Dice and the target heals that many hitpoints + your physician level. If the result of the check is greater than 5 or more, you then roll twice the number of First aid Dice you chose when beginning the attempt. A creature can be healed up to {{proficiency}}</description>
         </sheet>
         <rules>
             <stat name="firstaid:dice" value="1" level="1" />
@@ -299,9 +299,12 @@
         <description>
             <p>Also 6th level your familiarity with biology of all the creatures you have worked on so far has allowed you to know just what you need to do to bring a body to the brink of a complete breakdown. When you hit a creature with an attack, you may immediately as a bonus action make an Intelligence (Medicine) check, as though you were attempting First Aid. If you succeed, target takes Necrotic damage equal to the total of your First Aid roll. Additionally if you succeed by 5 or more, the number of dice is doubled. Once you use this feature, you can't use it again until you finish a long rest.</p>
         </description>
-        <sheet usage="1/Long Rest">
+        <sheet usage="$(totalbody:usage)/Long Rest">
             <description>When you hit a creature with an attack, you may immediately as a bonus action make a medicine check as if you were attempting first aid. If you succeed, the target takes necrotic damage equal to to the total of your First Aid roll. additionally, if you succeed by 5 or more, the number of dice is doubled.</description>
         </sheet>
+        <rules>
+            <stat name="totalbody:usage" value="1" />
+        </rules>
     </element>
     <element name="You're not dying on me." type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_YOURE_NOT_DYING_ON_ME">
         <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PHYSICIAN_YOURE_NOT_DYING_ON_ME</requirements>
@@ -330,7 +333,7 @@
             <p>Additionally you may attempt to end a magical debilitating effect affecting a creature withing 5 feet of you. Make an ability check using your Intelligence Modifier. The DC equals 10 + the spell’s level. On a successful check, the spell ends.</p>
             <p>You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
         </description>
-        <sheet usage="{{intelligence:modifier}}/Long Rest">
+        <sheet usage="max(1,{{intelligence:modifier}})/Long Rest">
             <description>As an Action you may end one of the following conditions: Poisoned, Petrified, Paralyzed, Stunned, Blindness, Deafness, A Poison of your choice, A disease of your choice, and Maximum hit Points reduction. Ontop of this, you can choose to end a magical effect affecting a creature within 5 ft of you, by rolling an ability check using your intelligence, with a DC of 10 + the spell's level. on a success, the spell ends.</description>
         </sheet>
     </element>
@@ -380,6 +383,3 @@
         </sheet>
     </element>
 </elements>
-
-
-
