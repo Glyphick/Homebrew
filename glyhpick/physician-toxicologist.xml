@@ -81,7 +81,7 @@
             <p>Beginning at 10th level, the substance you have created is relentless to break the body once in the system, not stopping and persisting even against the toughest of subjects. When A creature succeeds on a Saving Throw, to reduce your Taint stage, it is reduced to stage 1 instead of 0.</p>
         </description>
         <sheet>
-            <description><>When a creature succeeds a Taint Saving Throw, It is reduced to stage 1 instead of stage 0.</description>
+            <description>When a creature succeeds a Taint Saving Throw, It is reduced to stage 1 instead of stage 0.</description>
         </sheet>
     </element>
     <element name="Virulent Taint" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_TOXICOLOGIST_VIRULENT_TAINT">
