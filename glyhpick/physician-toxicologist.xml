@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Toxicologist</name>
+        <author url="https://www.gmbinder.com/share/-N9NlG87xgs7cnp88ed-">Fun_kiddo</author>
+		<update version="1.0.0">
+			<file name="physician-toxicologist.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/refs/heads/master/glyhpick/physician-toxicologist.xml" />
+		</update>
+	</info>
+
+    <element name="Toxicologist" type="Archetype" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_TOXICOLOGIST">
+        <supports>Physician Study</supports>
+        <description>
+            <p>While many physicians study the body and the natural world to fix it and save as many people as possible, some look at it through more diabolic lenses. Toxicologists study nature and the living to create various poisons and substance to break down the living tissue in the most efficient and calculated ways possible. Many of them end up as suppliers to assassins guild, some serve in armies as alchemists, poisons and spreading plagues in the fields, while others learn how to make toxins, to try and stop others from using the same methods. In the end, all of them are specialists in ending lives be it first hand, or second.</p>
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_TOXICOLOGIST_POISONERS_KNOWLEDGE" />
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_TOXICOLOGIST_TAINTED_STRIKE" />
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_TOXICOLOGIST_ADAPTIVE_TOXIN" />
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_TOXICOLOGIST_UNRELENTING_DEGENERATION" />
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_TOXICOLOGIST_VIRULENT_TAINT" />
+            <div element="ID_GLY_GH_ARCHETYPE_FEATURE_TOXICOLOGIST_ANGEL_OF_DEATH" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_TOXICOLOGIST_POISONERS_KNOWLEDGE" level="3" />
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_TOXICOLOGIST_TAINTED_STRIKE" level="3" />
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_TOXICOLOGIST_ADAPTIVE_TOXIN" level="7" />
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_TOXICOLOGIST_UNRELENTING_DEGENERATION" level="10" />
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_TOXICOLOGIST_VIRULENT_TAINT" level="15" />
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_TOXICOLOGIST_ANGEL_OF_DEATH" level="18" />
+        </rules>
+    </element>
+    <element name="Poisoner's Knowledge" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_TOXICOLOGIST_POISONERS_KNOWLEDGE">
+        <description>
+            <p>Beginning with 3rd level, you understand the tools of your craft to a deadly extent. You gain proficiency in the Poisoner's Kit and it takes you quarter the amount of time and cost required to craft poisons.</p>
+        </description>
+        <sheet>
+            <description>It takes you a quarter the amount of time and cost required to craft poisons.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT" />
+        </rules>
+    </element>
+    <element name="Tainted Strike" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_TOXICOLOGIST_TAINTED_STRIKE">
+        <description>
+            <p>At 3rd, you have developed an adaptive poisonous substance that you can envelop your weapons in, allowing you to slowly, but surely break down your opponents bodies, until their own bodies fail them. When you make a weapon attack, you may use this ability. On a hit, choose either Strength, Dexterity or Constitution and afterwards make an Intelligence (Medicine) check, trying to beat the the Ability Score chosen for the opponent A tainted creature is afflicted by all negatives of it's stage and ones below according, to the Taint Stage Table (which can be seen at the end of the class). Additionally at the end of its turn, roll a number of dice equal to the taint stage and it takes the amount of damage equal to the result (for example at level three, at taint stage 1, the tainted takes 1d4 poison damage). At the end of each if its turns, it may roll a saving throw with the previously chosen Ability Score (If you target Constitution, the target makes a Constitution saving throw) against your Taint Save DC reducing Taint to stage 0 on a success. On a failure, the poison continues coursing through the creature and grows in intensity, increasing it's stage by 1, up to a maximum of your proficiency modifier. The creature may repeat this saving at the end of each of it's turns. If the tainted creature gets hit by Tainted Strike again, it's taint increases by 1 stage, no check required. Taints damage die at 3rd level is a d4 and increases to a d6 when you reach 5th level, d8 at 11th level and d10 at 17th level.</p>
+        </description>
+        <sheet>
+            <description>
+                <p>When using this feature with a weapon attack, choose between Constitution, Strength, or Dexterity and make an intelligence (medicine) Check, attempting to beat the ability score chosen for the opponent. On a success, the creature becomes tainted, and gains a single stack of Taint stage, and gains all of the effects of it's stage and ones below according to this table:</p>
+                <ul>
+                    <li>1: -5 Movement Speed.</li>
+                    <li>2: -1 AC.</li>
+                    <li>3: Tainted creature subtracts 1d4 from all attack rolls and saving throws it makes. -5 movement speed.</li>
+                    <li>4: Disadvantage on all Taint Saving throws.</li>
+                    <li>5: blinded. -5 Movement Speed.</li>
+                    <li>6: Cannot make saving throws to reduce taint for 1 minute.</li>
+                </ul>
+                <p>Additionally, at the end of the creature's turn, you roll a number of d$(taintdamage:die) equal to the number of taint stages the creature possesses. At the end of it's turns, the creature may roll a saving throw with the previously chosen ability score against a DC of $(taint:dc). on a success, their taint stage is reduced to zero, and on a failure, the stage increases by one stage, to a maximium of $(proficiency). if it is hit by a tainted strike againt, it's taint increases by 1 stage, with no check required.</p>
+            </description>
+        </sheet>
+        <rules>
+            <stat name="taintdamage:die" value="4" level="3" bonus="Base" />
+            <stat name="taintdamage:die" value="6" level="5" bonus="Base" />
+            <stat name="taintdamage:die" value="8" level="11" bonus="Base" />
+            <stat name="taintdamage:die" value="10" level="17" bonus="Base" />
+            <stat name="taint:dc" value="8" />
+            <stat name="taint:dc" value="proficiency" />
+            <stat name="taint:dc" value="intelligence:modifier" />
+        </rules>
+    </element>
+    <element name="Adaptive Toxin" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_TOXICOLOGIST_ADAPTIVE_TOXIN">
+        <description>
+            <p>When you reach 7th level, the substances you create have proven themselves to be quite resilient, even against the most resistant of creatures. You treat poison immunity as resistance and additionally, if your Tainted Strike succeeds by 5 or more, you treat resistance as no resistance.</p>
+        </description>
+        <sheet>
+            <description>You treat Poison Immunity as resistance. If your tainted strike succeeds by 5 or more, you treat poison resistance as no resistance.</description>
+        </sheet>
+    </element>
+    <element name="Unrelenting Degeneration" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_TOXICOLOGIST_UNRELENTING_DEGENERATION">
+        <description>
+            <p>Beginning at 10th level, the substance you have created is relentless to break the body once in the system, not stopping and persisting even against the toughest of subjects. When A creature succeeds on a Saving Throw, to reduce your Taint stage, it is reduced to stage 1 instead of 0.</p>
+        </description>
+        <sheet>
+            <description><>When a creature succeeds a Taint Saving Throw, It is reduced to stage 1 instead of stage 0.</description>
+        </sheet>
+    </element>
+    <element name="Virulent Taint" type="Archetype Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_TOXICOLOGIST_VIRULENT_TAINT">
+        <description>
+            <p>At 15th level, you have developed a way for the taint to spread as if a manufactured plague, spreading chaos on the battlefield at your whims. When a tainted creature dies, the taint inside it begins spreading and all creatures within 10 feet of it must make a saving throw of your choice (that you could choose with Tainted Strike). On a failure, they become tainted as if affected by Tainted Strike.</p>
+        </description>
+        <sheet>
+            <description>When a tainted creature dies, all creatures with 10ft must make a saving throw of your choice (within the choices of Tainted Strike). On failure, they become tainted as if affected by Tainted Strike.</description>
+        </sheet>
+    </element>
+    <element name="Angel of Death" type="Archetype Feature" source=" Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_TOXICOLOGIST_ANGEL_OF_DEATH">
+        <description>
+            <p>When you reach 18th level, your work with various kinds of poisons and toxins have accustomed your body to the worst of their affects, allowing you to spread even more death, with no more caution about your own safety. You become immune to poison damage as well as the poisoned condition. Additionally, now as an action you may spread the taint around you in a 10 feet radius for the next 1 minute. When a hostile creature first enters the area or starts its turn there, it must make a saving throw of your choice (that you could choose with Tainted Strike) and on a failure they become tainted. When a tainted creatures starts its turn in the area, it must repeat the same saving throw and on a failure the creatures taint stage increases by 1 stage. You may end this ability as a free action. Once you use this feature, you can't use it again, until you finish a long rest.</p>
+        </description>
+        <sheet usage="1/Long Rest" action="Action">
+            <description>You begin to spread Taint within a 10ft radius around you for the next minute. When a hostile creature enters the area or starts it's turn there, it must make a saving throw of your choice (within the choices of Tainted Strike) and on failure become tainted. When the creature starts it's turn in teh area, it must repeat the saving throw and gains another stage of taint by 1. you may end this ability as a free action. Additionally, you become immune to the Poisoned condition.</description>
+        </sheet>
+        <rules>
+            <grant type="condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON" level="18" />
+        </rules>
+    </element>
+</elements>
