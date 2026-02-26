@@ -4,7 +4,7 @@
 		<name>War Surgeon</name>
         <author url="https://www.gmbinder.com/share/-N9NlG87xgs7cnp88ed-">Fun_kiddo</author>
 		<update version="1.0.0">
-			<file name="physician-warsurgeon.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/refs/heads/master/glyhpick/physician-warsurgeon.xml" />
+			<file name="physician-warsurgeon.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/refs/heads/master/glyhpick/physican-warsurgeon.xml" />
 		</update>
 	</info>
     <element name="War Surgeon" type="Archetype" source="Glyphick's Homebrew" id="ID_GLY_GH_ARCHETYPE_WARSURGEON">
@@ -80,3 +80,4 @@
         </rules>
     </element>
 </elements>
+
