@@ -15,5 +15,6 @@
 		<file name="physician-analyst.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/refs/heads/master/glyhpick/physician-analyst.xml" />
 		<file name="physician-warsurgeon.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/refs/heads/master/glyhpick/physican-warsurgeon.xml" />
 		<file name="physician-toxicologist.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/refs/heads/master/glyhpick/physician-toxicologist.xml" />
+		<file name="class-weapon-master.xml" url="https://raw.githubusercontent.com/Glyphick/Homebrew/refs/heads/master/glyhpick/class-weapon-master.xml" />
 	</files>
 </index>
