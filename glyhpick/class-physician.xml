@@ -229,14 +229,12 @@
         </description>
         <sheet action="Bonus Action">
             <description>
-                <p>After you hit an enemy with an attack, you can use this feature to roll a Medicine check, having the target roll a Deception check. if you succeed, you find out one of the following pieces of information at random:</p>
-                <ul>
-                    <li>Highest Ability Score</li>
-                    <li>Lowest Ability Score</li>
-                    <li>It's maximum Hitpoints</li>
-                    <li>If any, one vulnerability, resistance, or immunity. if it has multiple, it is determined at random and if it doesn't have any you find that out as well.</li>
-                </ul>
-                <p>The target then becomes "analyzed", and for the next minute, you may deal a bonus {{intelligence:modifier}} to the damage roll.</p>
+                After you hit an enemy with an attack, you can use this feature to roll a Medicine check, having the target roll a Deception check. if you succeed, you find out one of the following pieces of information at random:<br/>
+                <b>Highest Ability Score<br/>
+                <b>Lowest Ability Score<br/>
+                <b>It's maximum Hitpoints<br/>
+                <b>If any, one vulnerability, resistance, or immunity. if it has multiple, it is determined at random and if it doesn't have any you find that out as well.<br/>
+                The target then becomes "analyzed", and for the next minute, you may deal a bonus {{intelligence:modifier}} to the damage roll.</p>
             </description>
         </sheet>
     </element>

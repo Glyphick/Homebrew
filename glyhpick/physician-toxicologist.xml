@@ -47,15 +47,13 @@
         <sheet>
             <description>
                 <p>When using this feature with a weapon attack, choose between Constitution, Strength, or Dexterity and make an intelligence (medicine) Check, attempting to beat the ability score chosen for the opponent. On a success, the creature becomes tainted, and gains a single stack of Taint stage, and gains all of the effects of it's stage and ones below according to this table:</p>
-                <ul>
-                    <li>1: -5 Movement Speed.</li>
-                    <li>2: -1 AC.</li>
-                    <li>3: Tainted creature subtracts 1d4 from all attack rolls and saving throws it makes. -5 movement speed.</li>
-                    <li>4: Disadvantage on all Taint Saving throws.</li>
-                    <li>5: blinded. -5 Movement Speed.</li>
-                    <li>6: Cannot make saving throws to reduce taint for 1 minute.</li>
-                </ul>
-                <p>Additionally, at the end of the creature's turn, you roll a number of d$(taintdamage:die) equal to the number of taint stages the creature possesses. At the end of it's turns, the creature may roll a saving throw with the previously chosen ability score against a DC of $(taint:dc). on a success, their taint stage is reduced to zero, and on a failure, the stage increases by one stage, to a maximium of $(proficiency). if it is hit by a tainted strike againt, it's taint increases by 1 stage, with no check required.</p>
+                    <b>1:</b> -5 Movement Speed.<br/>
+                    <b>2:</b> -1 AC.<br/>
+                    <b>3:</b> Tainted creature subtracts 1d4 from all attack rolls and saving throws it makes. -5 movement speed.<br/>
+                    <b>4:</b> Disadvantage on all Taint Saving throws.<br/>
+                    <b>5:</b> blinded. -5 Movement Speed.<br/>
+                    <b>6:</b> Cannot make saving throws to reduce taint for 1 minute.<br/>
+                <p>Additionally, at the end of the creature's turn, you roll a number of d$(taintdamage:die) equal to the number of taint stages the creature possesses. At the end of it's turns, the creature may roll a saving throw with the previously chosen ability score against a DC of $(taint:dc). on a success, their taint stage is reduced to zero, and on a failure, the stage increases by one stage, to a maximium of $(proficiency). if it is hit by a tainted strike again, it's taint increases by 1 stage, with no check required.</p>
             </description>
         </sheet>
         <rules>
