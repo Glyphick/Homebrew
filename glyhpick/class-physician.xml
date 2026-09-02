@@ -234,7 +234,7 @@
                 <b>Lowest Ability Score<br/>
                 <b>It's maximum Hitpoints<br/>
                 <b>If any, one vulnerability, resistance, or immunity. if it has multiple, it is determined at random and if it doesn't have any you find that out as well.<br/>
-                The target then becomes "analyzed", and for the next minute, you may deal a bonus {{intelligence:modifier}} to the damage roll.</p>
+                The target then becomes "analyzed", and for the next minute, you may deal a bonus {{intelligence:modifier}} to the damage roll.</b>
             </description>
         </sheet>
     </element>
