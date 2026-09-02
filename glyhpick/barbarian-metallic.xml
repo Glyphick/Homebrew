@@ -22,7 +22,7 @@
         <rules>
             <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_STEEL_SKIN" level="3" />
             <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_TUNGSTEN_BONES" level="6" />
-            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_ALUMINUM_BLOOD" level="10" />
+            <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_ALUMINIUM_BLOOD" level="10" />
             <grant type="Archetype Feature" id="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_METAL_SOUL" level="14" />
         </rules>
     </element>
@@ -58,7 +58,7 @@
         </sheet>
     </element>
 
-    <element name="Aluminium Blood" type="Archetype Feature" source="Glyhpick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_ALUMINUM_BLOOD">
+    <element name="Aluminium Blood" type="Archetype Feature" source="Glyhpick's Homebrew" id="ID_GLY_GH_ARCHETYPE_FEATURE_METALLIC_ALUMINIUM_BLOOD">
         <description>
             <p>At 10th level, your blood turns into molten aluminium(although it turns to normal blood once it leaves your body). This gives advantage on constitution saving throws against extreme weather. This also slows the rate at which you bleed out, giving you advantage on death saving throws.</p>
         </description>
