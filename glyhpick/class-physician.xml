@@ -19,7 +19,7 @@
             <h4>TRUE UNDERSTANDING</h4>
             <p>All physicians seek to study and comprehend the world with all of its intricacies, hoping to prove the might of every person and the power a mere man can possess, with the might of knowledge and understanding, wielding it as their eternal weapon and shield.</p>
             <h4>NEVER ENDING STUDY</h4>
-            <p>A physicians journey to true understanding is a long one, often through many trials and tribulations. To understand all creatures, how life truly works and the very nature of the world, is a destination with no certain path, so many take different roads. Some study it in battle, through dissecting their opponents and understanding what makes them act the way they do, while others sit in studies researching herbs and reading theory, to try and comprehend the laws of the world. But few in the end see the peak of the path. Those that do, become creatures of myth, who very often are even misunderstood as miracle workers and creatures of magic themselves, without even doing a singular bit of magic. All through the simple, unchanging power of science.</p>
+            <p>A physician's journey to true understanding is a long one, often through many trials and tribulations. To understand all creatures, how life truly works and the very nature of the world, is a destination with no certain path, so many take different roads. Some study it in battle, through dissecting their opponents and understanding what makes them act the way they do, while others sit in studies researching herbs and reading theory, to try and comprehend the laws of the world. But few in the end see the peak of the path. Those that do, become creatures of myth, who very often are even misunderstood as miracle workers and creatures of magic themselves, without even doing a singular bit of magic. All through the simple, unchanging power of science.</p>
             <h4>CREATING A PHYSICIAN</h4>
             <p>As you build your physician character, consider their ties to the medical field. Did they learn their craft out of neccessity or fascination? Do you work for a Medical firm or are you a stand alone business? Or are you a non-licensed surgeon healing people you come across? What strives you to heal so many people?</p>
             <p>What was the moment that caused a shift in your life to lead to this path? did someone important to you die from a wound that no one knew how to heal? Maybe someone saved you from death and wish to do the same for others. Or perhaps you wish to help others by your own means, and not by magic or other standards. Or maybe you've discovered a new life to follow—one you can live where you can unlock your true potential.</p>
@@ -228,14 +228,10 @@
             <p class="indent"> Once you successfully study a creature this way, it becomes "Analyzed" and for the next minute, whenever you hit it with an attack, you may additionally add your Intelligence modifier to the damage roll.</p>
         </description>
         <sheet action="Bonus Action">
-            <description>
-                After you hit an enemy with an attack, you can use this feature to roll a Medicine check, having the target roll a Deception check. if you succeed, you find out one of the following pieces of information at random:<br/>
-                <b>Highest Ability Score<br/>
-                <b>Lowest Ability Score<br/>
-                <b>It's maximum Hitpoints<br/>
-                <b>If any, one vulnerability, resistance, or immunity. if it has multiple, it is determined at random and if it doesn't have any you find that out as well.<br/>
-                The target then becomes "analyzed", and for the next minute, you may deal a bonus {{intelligence:modifier}} to the damage roll.</b>
-            </description>
+            <description>After you hit an enemy with an attack, you can use this feature to roll a Medicine check, having the target roll a Deception check. if you succeed, you find out one of the following pieces of information at random: &#13;
+			Highest or Lowest Ability Score. &#13;
+			One Vulnerability, Resistance, or Immunity.&#13;
+            The Target then becomes "analyzed", and for the next minute, you may deal a bonus {{intelligence:modifier}} to the damage roll.</description>
         </sheet>
     </element>
     <element name="Physician Study" type="Class Feature" source="Glyphick's Homebrew" id="ID_GLY_GH_CLASS_FEATURE_PHYSICIAN_PHYSICIANSTUDY">
